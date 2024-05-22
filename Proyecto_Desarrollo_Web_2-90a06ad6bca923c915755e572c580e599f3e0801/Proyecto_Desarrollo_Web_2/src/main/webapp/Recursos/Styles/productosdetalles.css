@@ -1,0 +1,87 @@
+table {
+    border-collapse: collapse;
+    margin-top: 20px; /* Distancia del borde superior de la página */
+    margin-left: 70px;
+    margin-right: auto;
+}
+
+td {
+    padding: 20px; /* Aumenta la separación del borde de la celda */
+}
+
+.parrafo-detalles{
+    text-align: justify;
+    margin-left: 50px; /* Espaciado a la izquierda */
+    margin-right: 50px; /* Espaciado a la derecha */
+    font-size:smaller;
+}
+
+.product-info {
+    padding-left: 20px; /* Añade espacio entre la imagen y la información */
+}
+
+.product-name {
+    margin-top: 0; /* Ajusta el margen superior del nombre del producto */
+}
+
+.carousel__contenedor{
+    position:relative;
+    max-width: 300px;
+}
+
+.carousel__elemento{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.carousel__anterior, .carousel__siguiente{
+    position:absolute;
+    display: none; /* Ocultar los botones por defecto */
+    width:30px;
+    height:30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor:pointer;
+    line-height: 30px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    color:black;
+    opacity:100%;
+}
+
+.carousel__anterior{
+    left:-1px;
+}
+
+.carousel__siguiente{
+    right: -1px;
+}
+
+.carousel__contenedor:hover .carousel__anterior,
+.carousel__contenedor:hover .carousel__siguiente {
+    display: block;
+}
+
+#Detalles-producto {
+    width: calc(100% - 100px); /* El ancho de la página menos el espacio deseado en ambos lados */
+    margin-left: 50px; /* Espaciado a la izquierda */
+    margin-right: 50px; /* Espaciado a la derecha */
+    margin-top: 20px; /* Espaciado superior */
+    margin-bottom: 20px; /* Espaciado inferior */
+    border-collapse: collapse; /* Colapsa los bordes de las celdas */
+}
+
+/* Estilos para el encabezado de la tabla */
+#Detalles-producto thead th {
+    background-color: #f2f2f2; /* Color de fondo */
+    text-align: center; /* Alineación del texto al centro */
+    padding: 10px; /* Espaciado interno */
+}
+
+/* Estilos para las celdas de la tabla */
+#Detalles-producto td {
+    border: 1px solid #ddd; /* Borde de las celdas */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto al centro */
+}

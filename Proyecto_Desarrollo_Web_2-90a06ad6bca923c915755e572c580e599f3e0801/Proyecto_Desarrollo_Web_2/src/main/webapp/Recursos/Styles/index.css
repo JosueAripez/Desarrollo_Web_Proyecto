@@ -1,0 +1,250 @@
+body
+{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    background-color: #119744;
+    color: white;
+    padding: 1px 0;
+    padding-left: 10px;
+}
+
+.nav
+{
+    color: #555555;
+}
+
+.contenedor-nav
+{
+    display: flex; /* Utiliza flexbox para los elementos internos */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: center; /* Centra horizontalmente los elementos */
+}
+
+.logo-nav
+{
+    width: auto; /* Ajusta el tamaño de la imagen según lo deseado */
+    height: 50px; /* Aumenta el tamaño de la imagen */
+    margin-right: 10px; /* Agrega espacio entre la imagen y el campo de búsqueda */
+    margin-top: 10px;
+}
+
+.espacio-nav
+{
+    width: 80%;
+}
+
+#buscador
+{
+    margin-right: 10px; /* Agrega espacio entre la imagen y el campo de búsqueda */
+    width: 500px; /* Ancho deseado para el input */
+    height: 40px; /* Alto deseado para el input */
+    padding: 10px; /* Espacio interno alrededor del texto */
+    background-color: lightgray; /* Color de fondo */
+    border: 2px solid transparent; /* Borde transparente por defecto */
+    border-radius: 5px; /* Agrega bordes redondeados */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho y alto total */
+    transition: border-color 0.3s; /* Agrega una transición suave para el cambio de color del borde */
+    margin-top: 10px;
+}
+
+#buscador:focus {
+    outline-color: #119744; /* Cambia el color del contorno al seleccionar el input */
+}
+
+#bb
+{
+    width: 20px; /* Ajusta el tamaño del botón de búsqueda según lo deseado */
+    height: auto; /* Mantiene la proporción del botón de búsqueda */
+    margin-top: 10px;
+}
+
+.contenedor-menu 
+{
+    display: flex; /* Utiliza flexbox para los elementos internos */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    font-weight: bold;
+}
+
+.contenedor-menu ul 
+{
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    margin: 0; /* Elimina el margen predeterminado de la lista */
+    display: flex; /* Utiliza flexbox para los elementos de la lista */
+}
+
+.contenedor-menu ul li 
+{
+    margin-right: 20px; /* Agrega espacio entre cada elemento de la lista */
+}
+
+.contenedor-menu ul li:last-child 
+{
+    margin-right: 0; /* Elimina el espacio después del último elemento de la lista */
+}
+
+.contenedor-menu ul li a 
+{
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #555555; /* Color predeterminado del texto */
+    transition: color 0.3s; /* Agrega una transición suave para el cambio de color */
+}
+
+.contenedor-menu ul li a:hover 
+{
+    color: #119744; /* Cambia el color del texto al pasar el cursor sobre el */
+    font-weight: bold;
+}
+
+.main
+{
+    background-color: #ebebeb;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.contenedor-slider
+{
+    overflow: hidden;
+    width: 100%;
+}
+
+.slider
+{
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.slider img
+{
+    width: 100%;
+    height: auto;
+}
+
+.Productos_nuevos
+{
+    margin: 20px auto; /* Centra el div horizontalmente con margen en la parte superior e inferior */
+    width: 90%; /* Ancho del div */
+}
+
+.Tabla
+{
+    border-collapse: separate; /* Bbordes separado */
+    border-spacing: 10px; /* Espacio entre las celdas */
+    border-radius: 10px; /* Bordes redondeados */
+    width: 100%; /* Ancho de la tabla */
+}
+
+.Tabla td
+{
+    padding: 20px; /* Espacio interno de las celdas */
+    background-color: white; /* Color de fondo azul */
+    border: 2px solid white; /* Borde de las celdas */
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.img_tabla
+{
+    width: 100px; /* Establece el ancho deseado para la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.vermas
+{
+    border-radius: 5px; /* Hace que los bordes sean redondeados */
+    background-color: #ebebeb; /* Color de fondo del botón */
+    color: #555555; /* Color del texto del botón */
+    border: 2px solid #ebebeb; /* Define el grosor y el color del borde */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Agrega una transición suave al cambiar los estilos */
+}
+
+.vermas:hover
+{
+    background-color: #119744; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+    color: #fff; /* Cambia el color del texto al pasar el mouse sobre el botón */
+    border-color: #119744; /* Cambia el color del borde al pasar el mouse sobre el botón */ 
+}
+
+.Directorio_vir
+{
+    width: 89%; /* Ancho del 60% de la página */
+    margin: 0 auto; /* Margen automático para centrar horizontalmente */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: lightblue; /* Color de fondo */
+    padding: 20px; /* Espacio interno */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho total */
+    display: flex; /* Utiliza flexbox para los elementos internos */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: center; /* Centra horizontalmente los elementos */
+}
+
+.footer
+{
+    background-color: #353535;
+    color: white;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.footer-column
+{
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-column h4
+{
+    margin-bottom: 20px;
+}
+
+.footer-column ul
+{
+    padding: 0;
+    list-style: none;
+}
+
+.footer-column ul li
+{
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column p
+{
+    margin: 0;
+    cursor: pointer;
+}
+
+.footer-bottom
+{
+    background-color: #1d1d1d;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.certificacion{
+    height:50px;
+    width: auto;
+    margin-right: 50px;
+}
