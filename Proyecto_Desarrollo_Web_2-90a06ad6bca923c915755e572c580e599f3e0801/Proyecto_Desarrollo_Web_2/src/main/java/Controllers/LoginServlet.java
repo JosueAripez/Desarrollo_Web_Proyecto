@@ -21,10 +21,10 @@ public class LoginServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     private final String[][] usuarios = {
-        {"admin", "admin123", "Administrador"},
-        {"user1", "password1", "Cliente 1"},
-        {"user2", "password2", "Cliente 2"},
-        {"user3", "password3", "Cliente 3"}
+        {"adminn", "admin1234", "Administrador"},
+        {"Josue", "Rojas", "Josue Rojas"},
+        {"Marcelo", "Marquez", "Marcelo MO"},
+        {"Christian", "Cardenas", "Chris"}
     };
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
