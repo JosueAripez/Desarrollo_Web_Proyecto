@@ -1,27 +1,24 @@
-document.addEventListener("DOMContentLoaded", function() 
-{
-    let slider = document.querySelector('.slider');
-    let images = document.querySelectorAll('.slider img');
+let slideIndex = 0;
+showSlide(slideIndex);
 
-    let currentIndex = 0;
-    let totalImages = images.length;
-    let slideWidth = images[0].clientWidth;
+function moveSlide(n) {
+    slideIndex += n;
+    showSlide(slideIndex);
+}
 
-    function nextSlide() 
-    {
-        currentIndex++;
-        if (currentIndex >= totalImages) 
-        {
-            currentIndex = 0;
-        }
-        updateSlider();
+function showSlide(n) {
+    let slides = document.querySelectorAll('.slide');
+    if (n >= slides.length) {
+        slideIndex = 0;
+    } else if (n < 0) {
+        slideIndex = slides.length - 1;
     }
+    slides.forEach(slide => {
+        let adjustedIndex = slideIndex % slides.length;
+        slide.style.transform = `translateX(-${adjustedIndex * 100}%)`;
+    });
+}
 
-    function updateSlider() 
-    {
-        let newPosition = -currentIndex * slideWidth;
-        slider.style.transform = `translateX(${newPosition}px)`;
-    }
-
-    setInterval(nextSlide, 3000);
-});
+setInterval(() => {
+    moveSlide(1);
+}, 3000);

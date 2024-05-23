@@ -33,6 +33,14 @@ body
     margin-top: 10px;
 }
 
+.text-nav
+{
+    margin-bottom: 10px;
+    font-style: italic;
+    font-family: impact;
+    font-size: 115%;
+}
+
 .espacio-nav
 {
     width: 80%;
@@ -41,6 +49,7 @@ body
 #buscador
 {
     margin-right: 10px; /* Agrega espacio entre la imagen y el campo de búsqueda */
+    margin-left: 10px;
     width: 500px; /* Ancho deseado para el input */
     height: 40px; /* Alto deseado para el input */
     padding: 10px; /* Espacio interno alrededor del texto */
@@ -61,16 +70,17 @@ body
     width: 20px; /* Ajusta el tamaño del botón de búsqueda según lo deseado */
     height: auto; /* Mantiene la proporción del botón de búsqueda */
     margin-top: 10px;
+    margin-right: 10px;
 }
 
-.contenedor-menu 
+.contenedor-menu
 {
     display: flex; /* Utiliza flexbox para los elementos internos */
     justify-content: center; /* Centra horizontalmente los elementos */
     font-weight: bold;
 }
 
-.contenedor-menu ul 
+.contenedor-menu ul
 {
     list-style: none; /* Elimina los puntos de la lista */
     padding: 0; /* Elimina el relleno predeterminado de la lista */
@@ -78,24 +88,24 @@ body
     display: flex; /* Utiliza flexbox para los elementos de la lista */
 }
 
-.contenedor-menu ul li 
+.contenedor-menu ul li
 {
     margin-right: 30px; /* Agrega espacio entre cada elemento de la lista */
 }
 
-.contenedor-menu ul li:last-child 
+.contenedor-menu ul li:last-child
 {
     margin-right: 0; /* Elimina el espacio después del último elemento de la lista */
 }
 
-.contenedor-menu ul li a 
+.contenedor-menu ul li a
 {
     text-decoration: none; /* Elimina el subrayado de los enlaces */
     color: #555555; /* Color predeterminado del texto */
     transition: color 0.3s; /* Agrega una transición suave para el cambio de color */
 }
 
-.contenedor-menu ul li a:hover 
+.contenedor-menu ul li a:hover
 {
     color: #119744; /* Cambia el color del texto al pasar el cursor sobre el */
     font-weight: bold;
@@ -110,26 +120,63 @@ h1
 {
     text-align: center;
 }
+/* ------------------------------------------------------------------------------------------------------------- */
 
-.contenedor-slider
-{
+.carousel {
+    position: relative;
+    width: 100%;
     overflow: hidden;
-    width: 100%;
 }
 
-.slider
-{
+.slides {
     display: flex;
+    width: 300%;
+    height: 600px;
+}
+
+.slide {
+    flex: 0 0 auto;
+    width: 33.33%;
     transition: transform 0.5s ease;
-    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
-.slider img
-{
+img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
 }
 
+button.prev,
+button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #119744; /* Color de fondo verde */
+    color: white; /* Color del texto blanco */
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%; /* Botones redondeados */
+}
+
+button.prev {
+    left: 10px; /* Posición del botón previo */
+}
+
+button.next {
+    right: 10px; /* Posición del botón siguiente */
+}
+
+button.prev:hover,
+button.next:hover {
+    background-color: white; /* Cambia el color de fondo al pasar el mouse a blanco */
+    color: #119744; /* Cambia el color del texto al pasar el mouse a verde */
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------- */
 .Productos_nuevos
 {
     margin: 20px auto; /* Centra el div horizontalmente con margen en la parte superior e inferior */
@@ -174,7 +221,7 @@ h1
 {
     background-color: #119744; /* Cambia el color de fondo al pasar el mouse sobre el botón */
     color: #fff; /* Cambia el color del texto al pasar el mouse sobre el botón */
-    border-color: #119744; /* Cambia el color del borde al pasar el mouse sobre el botón */ 
+    border-color: #119744; /* Cambia el color del borde al pasar el mouse sobre el botón */
 }
 
 .Directorio_vir
@@ -248,4 +295,58 @@ h1
     height:50px;
     width: auto;
     margin-right: 50px;
+}
+
+.container-card {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 77px;
+}
+
+.card {
+    width: calc(33.33% - 10px);
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 18px;
+}
+
+.card-text {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #119744;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #119744;
 }
