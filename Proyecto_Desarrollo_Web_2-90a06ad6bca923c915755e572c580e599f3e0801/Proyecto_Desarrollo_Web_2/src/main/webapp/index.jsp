@@ -32,14 +32,12 @@
                     <p>Nat's Veggies</p>
                     <input type="text" id="buscador" name="buscador" placeholder="Buscar Productos">
                     <input type="image"id="bb" src="Recursos\Imgs\lupa.png">
-                    <p><a href="login.jsp">Sesión</a></p>
-
                     <form action="login.jsp" method="get">
-                        <input type="image" src="Recursos/Imgs/usuario.png" alt="Botón de inicio de sesión">
+                        <input class="logo-nav" type="image" src="Recursos/Imgs/usuario.png" alt="Botón de inicio de sesión">
                     </form>
                     <p><%= (nombreUsuario != null) ? nombreUsuario : ""%></p>
                     <% if (nombreUsuario != null) { %>
-                    <p><a href="logout">Cerrar Sesión</a></p>
+                   
                     <% }%>
                 </div>
                 <hr class="espacio-nav">
@@ -47,9 +45,16 @@
                     <ul>
                         <li><a href="index.jsp">Inicio</a></li>
                         <li><a href="productos.jsp">Productos</a></li>
+                        <li><a href="recetas.jsp">Recetas</a></li>
                         <li><a href="servicios.jsp">Servicios</a></li>
                         <li><a href="about.jsp">Nosotros</a></li>
                         <li><a href="contacto.jsp">Contacto</a></li>
+                            <%
+                                Boolean esAdmin = (Boolean) session.getAttribute("esAdmin");
+                                if (esAdmin != null && esAdmin) { // Verificar si el usuario es un administrador
+                            %>
+                        <li><a href="admi_productos.jsp">Administrar Productos</a></li>
+                            <% }%>
                     </ul>
                 </div>
                 <br>
