@@ -1,5 +1,5 @@
 body {
-    background-color: #e8e9e9;
+    background-color: #ebebeb;
     font-family: Arial;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .boton-cerrar {
-    background-color: red;
+    background-color: #cc0000;
     color: white;
     padding: 12px 113px;
     border: none;

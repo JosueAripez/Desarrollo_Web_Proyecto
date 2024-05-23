@@ -12,6 +12,22 @@
         <title>Nat's Veggies</title>
         <link href="Recursos/Imgs/Logo_NV.png" rel="icon">
         <link href="Recursos/Styles/Login.css" rel="stylesheet">
+
+        <script>
+            function cerrarSesion() {
+                // Envía una solicitud GET al servlet de logout
+                var xhr = new XMLHttpRequest();
+                xhr.open("GET", "logout", true);
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                        // Redirige a la página de inicio después de cerrar sesión
+                        window.location.href = "index.jsp";
+                    }
+                };
+                xhr.send();
+            }
+        </script>
+
     </head>
     <body>
         <header class="header">
@@ -37,7 +53,7 @@
                     <input type="submit" name="iniciar" value="Iniciar Sesión" class="boton">
                     <br>
                     <br>
-                    <input type="submit" name="cerrar" value="Cerrar Sesión" class="boton-cerrar">
+                    <input type="button" name="cerrar" value="Cerrar Sesión" class="boton-cerrar" onclick="cerrarSesion()">
                 </form>
                 <br>
                 <p>¿Olvidaste Tu Contraseña?</p>

@@ -21,10 +21,10 @@ public class LoginServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     private final String[][] usuarios = {
-        {"adminn", "admin1234", "Administrador"},
-        {"Josue", "Rojas", "Josue Rojas"},
-        {"Marcelo", "Marquez", "Marcelo MO"},
-        {"Christian", "Cardenas", "Chris"}
+            {"admin", "admin123", "Administrador"},
+            {"Josue", "Rojas", "Josue Rojas"},
+            {"Marcelo", "Marquez", "Marcelo MO"},
+            {"Christian", "Cardenas", "Chris"}
     };
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -34,7 +34,10 @@ public class LoginServlet extends HttpServlet {
         for (String[] user : usuarios) {
             if (user[0].equals(username) && user[1].equals(password)) {
                 HttpSession session = request.getSession();
-                session.setAttribute("usuario", user[2]); // Guardamos el nombre del usuario en la sesión
+                session.setAttribute("usuario", user[2]); // Guardar el nombre del usuario en la sesión
+                if (user[2].equals("Administrador")) {
+                    session.setAttribute("esAdmin", true); // Indicar que el usuario es un administrador
+                }
                 System.out.println("Inicio de sesión exitoso para: " + user[2]);
                 response.sendRedirect("index.jsp");
                 return;

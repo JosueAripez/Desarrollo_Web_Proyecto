@@ -27,7 +27,7 @@ body
 
 .logo-nav
 {
-    width: auto; /* Ajusta el tamaño de la imagen según lo deseado */
+    width: 50px; /* Ajusta el tamaño de la imagen según lo deseado */
     height: 50px; /* Aumenta el tamaño de la imagen */
     margin-right: 10px; /* Agrega espacio entre la imagen y el campo de búsqueda */
     margin-top: 10px;
@@ -80,7 +80,7 @@ body
 
 .contenedor-menu ul li 
 {
-    margin-right: 20px; /* Agrega espacio entre cada elemento de la lista */
+    margin-right: 30px; /* Agrega espacio entre cada elemento de la lista */
 }
 
 .contenedor-menu ul li:last-child 
@@ -167,6 +167,7 @@ h1
     border: 2px solid #ebebeb; /* Define el grosor y el color del borde */
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Agrega una transición suave al cambiar los estilos */
+    width: 80%;
 }
 
 .vermas:hover
