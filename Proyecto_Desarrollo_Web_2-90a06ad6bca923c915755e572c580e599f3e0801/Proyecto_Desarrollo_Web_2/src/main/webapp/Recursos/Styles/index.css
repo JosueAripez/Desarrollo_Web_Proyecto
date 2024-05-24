@@ -23,6 +23,21 @@ body
     display: flex; /* Utiliza flexbox para los elementos internos */
     align-items: center; /* Centra verticalmente los elementos */
     justify-content: center; /* Centra horizontalmente los elementos */
+
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    padding: 10px;
+    transition: top 0.3s;
+}
+
+ .fijo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ajusta según sea necesario */
+    /* Agrega aquí otros estilos que desees para la barra de navegación fija */
 }
 
 .logo-nav
@@ -198,6 +213,12 @@ button.next:hover {
     border: 2px solid white; /* Borde de las celdas */
     border-radius: 10px; /* Bordes redondeados */
     text-align: center; /* Centra el texto horizontalmente */
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.Tabla td:hover {
+    border-color: #199744; /* Color del borde cuando se hace hover */
+    transform: translateY(-5px); /* Hace que la celda "salte" hacia arriba */
 }
 
 .img_tabla

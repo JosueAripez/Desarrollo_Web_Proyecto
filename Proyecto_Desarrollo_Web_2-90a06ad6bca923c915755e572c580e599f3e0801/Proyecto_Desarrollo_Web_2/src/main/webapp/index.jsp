@@ -14,7 +14,7 @@
 <html lang="es">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Nat's Veggies</title>
+        <title>Nat's Veggiies</title>
         <link href="Recursos/Imgs/Logo_nav.png" rel="icon">
         <link href="Recursos/Styles/index.css" rel="stylesheet">
         <script src="Recursos/Scripts/index.js"></script>    
@@ -28,7 +28,7 @@
             </header>
 
             <div class="nav">
-                <div class="contenedor-nav">
+                <div class="contenedor-nav" id="nav2">
                     <img src="Recursos/Imgs/Logo_nav.png" class="logo-nav" name="logo-nav">
                     <p class="text-nav">Nat's Veggies</p>
                     <input type="text" id="buscador" name="buscador" placeholder="Buscar Productos">
@@ -65,13 +65,13 @@
                 <div class="carousel">
                     <div class="slides">
                         <div class="slide">
-                            <img src="Recursos/Imgs/Index/imagen1.jpg" alt="Imagen 1">
+                            <img src="Recursos/Imgs/Index/Carrusel1.jpg" alt="Imagen 1">
                         </div>
                         <div class="slide">
-                            <img src="Recursos/Imgs/Index/imagen2.jpg" alt="Imagen 2">
+                            <img src="Recursos/Imgs/Index/Carrusel2.jpg" alt="Imagen 2">
                         </div>
                         <div class="slide">
-                            <img src="Recursos/Imgs/Index/imagen3.jpg" alt="Imagen 3">
+                            <img src="Recursos/Imgs/Index/Carrusel3.png" alt="Imagen 3">
                         </div>
                     </div>
                     <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
@@ -162,16 +162,14 @@
                             <tr>
                                 <td>Columna 1</td>
                                 <td>Columna 2</td>
-                                <td>Columna 3</td>
-                                <td>Columna 4</td>
-                                <td>Columna 5</td>
                             </tr>
                             <tr>
+                                <td>Columna 3</td>
+                                <td>Columna 4</td>
+                            </tr>
+                            <tr>
+                                <td>Columna 5</td>
                                 <td>Columna 6</td>
-                                <td>Columna 7</td>
-                                <td>Columna 8</td>
-                                <td>Columna 9</td>
-                                <td>Columna 10</td>
                             </tr>
                         </tbody>
                     </table>
@@ -196,11 +194,11 @@
                             </div>
                         </div>
                         <div class="card">
-                            <img src="imagen3.jpg" alt="Imagen 3" class="card-img">
+                            <img src="Recursos/Imgs/Index/Espagueti.jpg" alt="Imagen 3" class="card-img">
                             <div class="card-content">
-                                <h3 class="card-title">Título de la Tarjeta 3</h3>
-                                <p class="card-text">Contenido de la tarjeta 3</p>
-                                <a href="#" class="btn">Botón 3</a>
+                                <h3 class="card-title">Espagueti De Calabacín</h3>
+                                <p class="card-text">Esta deliciosa pasta sin gluten y alta en proteina hara que se convierta en tu platillo favorito</p>
+                                <a href="#" class="btn">Leer Más</a>
                             </div>
                         </div>
                     </div>
