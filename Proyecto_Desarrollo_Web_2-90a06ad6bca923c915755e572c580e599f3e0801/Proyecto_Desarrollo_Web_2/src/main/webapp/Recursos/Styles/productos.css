@@ -101,18 +101,18 @@
 
 /* Para los hipervínculos que no han sido visitados */
 a.referencia-producto:link {
-    color: rgb(6, 153, 6); /* Color verde */
+    color: black; /* Color verde */
     text-decoration: none;  /*Eliminar subrayado */
 }
 
 /* Para los hipervínculos que han sido visitados */
 a.referencia-producto:visited {
-    color: green; /* Mismo color verde */
+    color: black; /* Mismo color verde */
 }
 
 /* Cuando el cursor está sobre el hipervínculo */
 a.referencia-producto:hover {
-    color: rgb(3, 73, 3); /* Cambia a verde oscuro */
+    color: #119744; /* Cambia a verde oscuro */
 }
 
 /* Cuando el hipervínculo está activo (cuando se presiona) */

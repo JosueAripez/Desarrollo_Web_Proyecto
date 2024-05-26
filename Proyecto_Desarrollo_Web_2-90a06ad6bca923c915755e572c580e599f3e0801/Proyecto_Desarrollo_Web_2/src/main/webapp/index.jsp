@@ -17,6 +17,7 @@
         <title>Nat's Veggiies</title>
         <link href="Recursos/Imgs/Logo_nav.png" rel="icon">
         <link href="Recursos/Styles/index.css" rel="stylesheet">
+        <link href="Recursos/Styles/productos.css" rel="stylesheet">
         <script src="Recursos/Scripts/index.js"></script>    
     </head>
 
@@ -86,31 +87,41 @@
                                 <td>
                                     <img class="img_tabla" src="Recursos\Imgs\Productos\uva_morada.jpg">
                                     <hr>
-                                    <p>Pepino Fresco</p>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Uva Morada</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
                                     <input class="vermas" type="button" value="Ver más">
                                 </td>
                                 <td>
                                     <img class="img_tabla" src="Recursos\Imgs\Productos\repollo.jpg">
                                     <hr>
-                                    <p>Pepino Fresco</p>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Repollo</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
                                     <input class="vermas" type="button" value="Ver más">
                                 </td>
                                 <td>
                                     <img class="img_tabla" src="Recursos\Imgs\Productos\pepino_1.jpg">
                                     <hr>
-                                    <p>Pepino Fresco</p>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Pepino Fresco</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
                                     <input class="vermas" type="button" value="Ver más">
                                 </td>
                                 <td>
                                     <img class="img_tabla" src="Recursos\Imgs\Productos\granada.jpg">
                                     <hr>
-                                    <p>Pepino Fresco</p>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Granada</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
                                     <input class="vermas" type="button" value="Ver más">
                                 </td>
                                 <td>
                                     <img class="img_tabla" src="Recursos\Imgs\Productos\berenjena.jpg">
                                     <hr>
-                                    <p>Pepino Fresco</p>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Berenjena</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
                                     <input class="vermas" type="button" value="Ver más">
                                 </td>
                             </tr>
@@ -118,37 +129,49 @@
                                 <td>
                                     <img class="img_tabla" src="Recursos\Imgs\Productos\cebolla_morada.jpg">
                                     <hr>
-                                    <p>Pepino Fresco</p>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Cebolla Morada</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
                                     <input class="vermas" type="button" value="Ver más">
                                 </td>
                                 <td>
                                     <img class="img_tabla" src="Recursos\Imgs\Productos\frambuesa.jpg">
                                     <hr>
-                                    <p>Pepino Fresco</p>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Frambuesa</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
                                     <input class="vermas" type="button" value="Ver más">
                                 </td>
                                 <td>
                                     <img class="img_tabla" src="Recursos\Imgs\Productos\coliflor.jpg">
                                     <hr>
-                                    <p>Pepino Fresco</p>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Coliflor</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
                                     <input class="vermas" type="button" value="Ver más">
                                 </td>
                                 <td>
                                     <img class="img_tabla" src="Recursos\Imgs\Productos\champion.jpg">
                                     <hr>
-                                    <p>Pepino Fresco</p>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Champiñon</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
                                     <input class="vermas" type="button" value="Ver más">
                                 </td>
                                 <td>
                                     <img class="img_tabla" src="Recursos\Imgs\Productos\toronja.jpg">
                                     <hr>
-                                    <p>Pepino Fresco</p>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Toronja</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
                                     <input class="vermas" type="button" value="Ver más">
                                 </td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
+                
+                
                 <div class="Directorio_vir">
 
                     <a href="https://www.mexbest.com/mexbestVirtual" target="_blank">
@@ -157,19 +180,80 @@
                 </div>
                 <h1>Más Vendidos</h1>
                 <div class="Productos_nuevos">
-                    <table class="Tabla">
+                    <table class="Tabla2">
                         <tbody>
                             <tr>
-                                <td>Columna 1</td>
-                                <td>Columna 2</td>
+                                <td>
+                                    <div class="celda_contenido">
+                                        <img class="img_tabla2" src="Recursos/Imgs/Productos/uvas.jpg" alt="Uvas">
+                                        <div class="info_producto">
+                                            <p class="nombre_producto">Uvas Frescas</p>
+                                            <p class="clave_producto">Clave: 001</p>
+                                            <p class="descripcion_producto">Deliciosas uvas frescas y jugosas.</p>
+                                            <input class="vermas2" type="button" value="Ver más">
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td>
+                                    <div class="celda_contenido">
+                                        <img class="img_tabla2" src="Recursos/Imgs/Productos/pepino.jpg" alt="Pepino">
+                                        <div class="info_producto">
+                                            <p class="nombre_producto">Pepino Fresco</p>
+                                            <p class="clave_producto">Clave: 002</p>
+                                            <p class="descripcion_producto">Pepino fresco y crujiente.</p>
+                                            <input class="vermas2" type="button" value="Ver más">
+                                        </div>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
-                                <td>Columna 3</td>
-                                <td>Columna 4</td>
+                                <td>
+                                    <div class="celda_contenido">
+                                        <img class="img_tabla2" src="Recursos/Imgs/Productos/repollo.jpg" alt="Repollo">
+                                        <div class="info_producto">
+                                            <p class="nombre_producto">Repollo Fresco</p>
+                                            <p class="clave_producto">Clave: 003</p>
+                                            <p class="descripcion_producto">Repollo verde y saludable.</p>
+                                            <input class="vermas2" type="button" value="Ver más">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="celda_contenido">
+                                        <img class="img_tabla2" src="Recursos/Imgs/Productos/granada.jpg" alt="Granada">
+                                        <div class="info_producto">
+                                            <p class="nombre_producto">Granada Fresca</p>
+                                            <p class="clave_producto">Clave: 004</p>
+                                            <p class="descripcion_producto">Granadas frescas y dulces.</p>
+                                            <input class="vermas2" type="button" value="Ver más">
+                                        </div>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
-                                <td>Columna 5</td>
-                                <td>Columna 6</td>
+                                <td>
+                                    <div class="celda_contenido">
+                                        <img class="img_tabla2" src="Recursos/Imgs/Productos/berenjena.jpg" alt="Berenjena">
+                                        <div class="info_producto">
+                                            <p class="nombre_producto">Berenjena Fresca</p>
+                                            <p class="clave_producto">Clave: 005</p>
+                                            <p class="descripcion_producto">Berenjenas frescas y saludables.</p>
+                                            <input class="vermas2" type="button" value="Ver más">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="celda_contenido">
+                                        <img class="img_tabla2" src="Recursos/Imgs/Productos/manzana.jpg" alt="Manzana">
+                                        <div class="info_producto">
+                                            <p class="nombre_producto">Manzana Fresca</p>
+                                            <p class="clave_producto">Clave: 006</p>
+                                            <p class="descripcion_producto">Manzanas frescas y crujientes.</p>
+                                            <input class="vermas2" type="button" value="Ver más">
+                                        </div>
+                                    </div>
+                                </td>
                             </tr>
                         </tbody>
                     </table>

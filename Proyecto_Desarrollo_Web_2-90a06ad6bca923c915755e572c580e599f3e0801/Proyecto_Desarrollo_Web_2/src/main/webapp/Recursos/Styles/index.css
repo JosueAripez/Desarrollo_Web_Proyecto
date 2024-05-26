@@ -31,7 +31,7 @@ body
     transition: top 0.3s;
 }
 
- .fijo {
+.fijo {
     position: fixed;
     top: 0;
     left: 0;
@@ -214,6 +214,8 @@ button.next:hover {
     border-radius: 10px; /* Bordes redondeados */
     text-align: center; /* Centra el texto horizontalmente */
     transition: transform 0.2s, border-color 0.2s;
+    height: 250px; /* Altura fija de las celdas */
+    vertical-align: top; /* Alinea el contenido al principio de la celda */
 }
 
 .Tabla td:hover {
@@ -224,7 +226,7 @@ button.next:hover {
 .img_tabla
 {
     width: 100px; /* Establece el ancho deseado para la imagen */
-    height: auto; /* Mantiene la proporción de la imagen */
+    height: 100px; /* Mantiene la proporción de la imagen */
 }
 
 .vermas
@@ -235,7 +237,8 @@ button.next:hover {
     border: 2px solid #ebebeb; /* Define el grosor y el color del borde */
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Agrega una transición suave al cambiar los estilos */
-    width: 80%;
+    width: 100%;
+    height: 35px;
 }
 
 .vermas:hover
@@ -243,6 +246,85 @@ button.next:hover {
     background-color: #119744; /* Cambia el color de fondo al pasar el mouse sobre el botón */
     color: #fff; /* Cambia el color del texto al pasar el mouse sobre el botón */
     border-color: #119744; /* Cambia el color del borde al pasar el mouse sobre el botón */
+}
+
+.Tabla2
+{
+    border-collapse: separate;
+    border-spacing: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.Tabla2 td
+{
+    padding: 20px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: left;
+    transition: transform 0.2s, border-color 0.2s;
+    height: 344px;
+    vertical-align: top;
+}
+
+.Tabla2 td:hover
+{
+    border-color: #199744;
+    transform: translateY(-5px);
+}
+
+.celda_contenido
+{
+    display: flex;
+    align-items: center;
+    height: 100%; /* Asegura que el contenido ocupe toda la altura de la celda */
+}
+
+.img_tabla2
+{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.info_producto
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nombre_producto
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.clave_producto, .descripcion_producto
+{
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.vermas2
+{
+    border-radius: 5px;
+    background-color: #ebebeb;
+    color: #555555;
+    border: 2px solid #ebebeb;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.vermas2:hover
+{
+    background-color: #119744;
+    color: #fff;
+    border-color: #119744;
 }
 
 .Directorio_vir
