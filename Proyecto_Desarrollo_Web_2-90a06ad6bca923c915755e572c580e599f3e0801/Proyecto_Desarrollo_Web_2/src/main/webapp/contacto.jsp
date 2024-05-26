@@ -5,14 +5,20 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ page import="javax.servlet.http.HttpSession" %>
+<%
+    String nombreUsuario = (session != null) ? (String) session.getAttribute("usuario") : null;
+%>
+
 <!DOCTYPE html>
 <html lang="es">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Nat's Veggies</title>
-        <link href="Recursos/Imgs/Logo_NV.png" rel="icon">
+        <title>Contacto</title>
+        <link href="Recursos/Imgs/Logo_nav.png" rel="icon">
         <link href="Recursos/Styles/index.css" rel="stylesheet">
         <link href="Recursos/Styles/contacto.css" rel="stylesheet">
+        <script src="Recursos/Scripts/index.js"></script>    
     </head>
 
     <body>
@@ -23,22 +29,38 @@
             </header>
 
             <div class="nav">
-                <div class="contenedor-nav">
+                <div class="contenedor-nav" id="nav2">
                     <img src="Recursos/Imgs/Logo_nav.png" class="logo-nav" name="logo-nav">
+                    <p class="text-nav">Nat's Veggies</p>
                     <input type="text" id="buscador" name="buscador" placeholder="Buscar Productos">
                     <input type="image"id="bb" src="Recursos\Imgs\lupa.png">
+                    <form action="login.jsp" method="get">
+                        <input class="logo-nav" type="image" src="Recursos/Imgs/usuario.png" alt="Botón de inicio de sesión">
+                    </form>
+                    <p><%= (nombreUsuario != null) ? nombreUsuario : ""%></p>
+                    <% if (nombreUsuario != null) { %>
+
+                    <% }%>
                 </div>
                 <hr class="espacio-nav">
                 <div class="contenedor-menu">
                     <ul>
                         <li><a href="index.jsp">Inicio</a></li>
                         <li><a href="productos.jsp">Productos</a></li>
+                        <li><a href="recetas.jsp">Recetas</a></li>
+                        <li><a href="servicios.jsp">Servicios</a></li>
                         <li><a href="about.jsp">Nosotros</a></li>
                         <li><a href="contacto.jsp">Contacto</a></li>
+                            <%
+                                Boolean esAdmin = (Boolean) session.getAttribute("esAdmin");
+                                if (esAdmin != null && esAdmin) { // Verificar si el usuario es un administrador
+                            %>
+                        <li><a href="admi_productos.jsp">Administrar Productos</a></li>
+                            <% }%>
                     </ul>
                 </div>
                 <br>
-                </nav>
+            </div>
 
 
                 <section class="contact-section">

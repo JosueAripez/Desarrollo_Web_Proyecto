@@ -84,31 +84,31 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <img class="img_tabla" src="Recursos\Imgs\Productos\Pepino.jpg">
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\uva_morada.jpg">
                                     <hr>
                                     <p>Pepino Fresco</p>
                                     <input class="vermas" type="button" value="Ver más">
                                 </td>
                                 <td>
-                                    <img class="img_tabla" src="Recursos\Imgs\Productos\Pepino.jpg">
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\repollo.jpg">
                                     <hr>
                                     <p>Pepino Fresco</p>
                                     <input class="vermas" type="button" value="Ver más">
                                 </td>
                                 <td>
-                                    <img class="img_tabla" src="Recursos\Imgs\Productos\Pepino.jpg">
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\pepino_1.jpg">
                                     <hr>
                                     <p>Pepino Fresco</p>
                                     <input class="vermas" type="button" value="Ver más">
                                 </td>
                                 <td>
-                                    <img class="img_tabla" src="Recursos\Imgs\Productos\Pepino.jpg">
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\granada.jpg">
                                     <hr>
                                     <p>Pepino Fresco</p>
                                     <input class="vermas" type="button" value="Ver más">
                                 </td>
                                 <td>
-                                    <img class="img_tabla" src="Recursos\Imgs\Productos\Pepino.jpg">
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\berenjena.jpg">
                                     <hr>
                                     <p>Pepino Fresco</p>
                                     <input class="vermas" type="button" value="Ver más">
@@ -116,31 +116,31 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <img class="img_tabla" src="Recursos\Imgs\Productos\Pepino.jpg">
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\cebolla_morada.jpg">
                                     <hr>
                                     <p>Pepino Fresco</p>
                                     <input class="vermas" type="button" value="Ver más">
                                 </td>
                                 <td>
-                                    <img class="img_tabla" src="Recursos\Imgs\Productos\Pepino.jpg">
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\frambuesa.jpg">
                                     <hr>
                                     <p>Pepino Fresco</p>
                                     <input class="vermas" type="button" value="Ver más">
                                 </td>
                                 <td>
-                                    <img class="img_tabla" src="Recursos\Imgs\Productos\Pepino.jpg">
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\coliflor.jpg">
                                     <hr>
                                     <p>Pepino Fresco</p>
                                     <input class="vermas" type="button" value="Ver más">
                                 </td>
                                 <td>
-                                    <img class="img_tabla" src="Recursos\Imgs\Productos\Pepino.jpg">
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\champion.jpg">
                                     <hr>
                                     <p>Pepino Fresco</p>
                                     <input class="vermas" type="button" value="Ver más">
                                 </td>
                                 <td>
-                                    <img class="img_tabla" src="Recursos\Imgs\Productos\Pepino.jpg">
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\toronja.jpg">
                                     <hr>
                                     <p>Pepino Fresco</p>
                                     <input class="vermas" type="button" value="Ver más">

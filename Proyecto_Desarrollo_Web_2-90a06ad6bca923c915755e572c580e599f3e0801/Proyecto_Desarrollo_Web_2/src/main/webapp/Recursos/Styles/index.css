@@ -168,8 +168,8 @@ button.next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #119744; /* Color de fondo verde */
-    color: white; /* Color del texto blanco */
+    background-color: white; /* Color de fondo verde */
+    color: #119744; /* Color del texto blanco */
     border: none;
     cursor: pointer;
     padding: 10px;
@@ -186,8 +186,8 @@ button.next {
 
 button.prev:hover,
 button.next:hover {
-    background-color: white; /* Cambia el color de fondo al pasar el mouse a blanco */
-    color: #119744; /* Cambia el color del texto al pasar el mouse a verde */
+    background-color: #119744; /* Cambia el color de fondo al pasar el mouse a blanco */
+    color: white; /* Cambia el color del texto al pasar el mouse a verde */
 }
 
 
