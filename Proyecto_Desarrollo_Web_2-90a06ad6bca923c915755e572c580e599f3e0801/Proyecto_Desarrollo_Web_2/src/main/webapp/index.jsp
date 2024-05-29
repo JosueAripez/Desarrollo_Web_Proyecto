@@ -25,7 +25,7 @@
 
         <div>
             <header class="header">
-                <p>¡Bienvenidos a Nat's Veggies! La puerta de entrada a la excelencia en productos y servicio XD</p>
+                <p>¡Bienvenidos a Nat's Veggies! La puerta de entrada a la excelencia en productos y servicio</p>
             </header>
 
             <div class="nav">
