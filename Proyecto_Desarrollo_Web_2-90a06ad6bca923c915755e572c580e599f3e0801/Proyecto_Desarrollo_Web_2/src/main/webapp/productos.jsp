@@ -48,7 +48,6 @@
                     <ul>
                         <li><a href="index.jsp">Inicio</a></li>
                         <li><a href="productos.jsp">Productos</a></li>
-                        <li><a href="recetas.jsp">Recetas</a></li>
                         <li><a href="servicios.jsp">Servicios</a></li>
                         <li><a href="about.jsp">Nosotros</a></li>
                         <li><a href="contacto.jsp">Contacto</a></li>
@@ -62,16 +61,21 @@
                 </div>
                 <br>
             </div>
+                    
             <div class="producto-container">
+                
                 <div class="producto">
                     <div class="producto-info">
                         <img src="Recursos/Imgs/Productos/Chile_jalapenio.jpg" alt="Chile Jalapeño" onclick="mostrarInfo(this)">
+                        
                         <p class="producto-nombre">Chile Jalapeño</p>
+                        
                     </div>
                     <div class="info-producto">
                         <h3>Chile Jalapeño</h3>
                         <p>Variedad:</p>
                         <p>Descripción del Producto 1</p>
+                        
                         <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Ver más</a></p>
                         <button onclick="cerrarInfo()">Cerrar</button>
                     </div>

@@ -46,7 +46,6 @@
                     <ul>
                         <li><a href="index.jsp">Inicio</a></li>
                         <li><a href="productos.jsp">Productos</a></li>
-                        <li><a href="recetas.jsp">Recetas</a></li>
                         <li><a href="servicios.jsp">Servicios</a></li>
                         <li><a href="about.jsp">Nosotros</a></li>
                         <li><a href="contacto.jsp">Contacto</a></li>
