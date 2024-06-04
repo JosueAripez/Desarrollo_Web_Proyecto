@@ -32,8 +32,12 @@
                 <div class="contenedor-nav" id="nav2">
                     <img src="Recursos/Imgs/Logo_nav.png" class="logo-nav" name="logo-nav">
                     <p class="text-nav">Nat's Veggies</p>
-                    <input type="text" id="buscador" name="buscador" placeholder="Buscar Productos">
-                    <input type="image"id="bb" src="Recursos\Imgs\lupa.png">
+                    <input type="text" id="buscador" name="buscador" placeholder="Buscar Productos" onkeyup="mostrarSugerencias(this.value)">
+                    <div id="sugerencias" class="suggestions"></div>
+                    <form action="buscar" method="get">
+                        <input type="hidden" id="query" name="query">
+                        <input type="image"id="bb" src="Recursos\Imgs\lupa.png" onclick="buscarProducto()">
+                    </form>
                     <form action="login.jsp" method="get">
                         <input class="logo-nav" type="image" src="Recursos/Imgs/usuario.png" alt="Botón de inicio de sesión">
                     </form>
@@ -169,15 +173,15 @@
                         </tbody>
                     </table>
                 </div>
-                
-                
+
+
                 <div class="Directorio_vir">
 
                     <a href="https://www.mexbest.com/mexbestVirtual" target="_blank">
                         <h2>Conoce Nuestro Directorio Agroexportadores Mexicanos!!!</h2>
                     </a>  
                 </div>
-                <h1>Más Vendidos</h1>
+                <h1>Regresan</h1>
                 <div class="Productos_nuevos">
                     <table class="Tabla2">
                         <tbody>
@@ -257,35 +261,175 @@
                         </tbody>
                     </table>
                 </div>
-                <div>
-                    <h1>Recetas</h1>
-                    <div class="container-card">
-                        <div class="card">
-                            <img src="imagen1.jpg" alt="Imagen 1" class="card-img">
-                            <div class="card-content">
-                                <h3 class="card-title">Título de la Tarjeta 1</h3>
-                                <p class="card-text">Contenido de la tarjeta 1</p>
-                                <a href="#" class="btn">Botón 1</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="imagen2.jpg" alt="Imagen 2" class="card-img">
-                            <div class="card-content">
-                                <h3 class="card-title">Título de la Tarjeta 2</h3>
-                                <p class="card-text">Contenido de la tarjeta 2</p>
-                                <a href="#" class="btn">Botón 2</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="Recursos/Imgs/Index/Espagueti.jpg" alt="Imagen 3" class="card-img">
-                            <div class="card-content">
-                                <h3 class="card-title">Espagueti De Calabacín</h3>
-                                <p class="card-text">Esta deliciosa pasta sin gluten y alta en proteina hara que se convierta en tu platillo favorito</p>
-                                <a href="#" class="btn">Leer Más</a>
-                            </div>
+                <h1>Por Temporada</h1>
+                <div class="Productos_nuevos">
+                    <table class="Tabla">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\uva_morada.jpg">
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Uva Morada</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
+                                    <input class="vermas" type="button" value="Ver más">
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\repollo.jpg">
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Repollo</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
+                                    <input class="vermas" type="button" value="Ver más">
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\pepino_1.jpg">
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Pepino Fresco</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
+                                    <input class="vermas" type="button" value="Ver más">
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\granada.jpg">
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Granada</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
+                                    <input class="vermas" type="button" value="Ver más">
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\berenjena.jpg">
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Berenjena</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
+                                    <input class="vermas" type="button" value="Ver más">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h1>Los Favoritos</h1>
+                <div class="Productos_nuevos">
+                    <table class="Tabla">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\uva_morada.jpg">
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Uva Morada</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
+                                    <input class="vermas" type="button" value="Ver más">
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\repollo.jpg">
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Repollo</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
+                                    <input class="vermas" type="button" value="Ver más">
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\pepino_1.jpg">
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Pepino Fresco</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
+                                    <input class="vermas" type="button" value="Ver más">
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\granada.jpg">
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Granada</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
+                                    <input class="vermas" type="button" value="Ver más">
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\berenjena.jpg">
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Berenjena</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
+                                    <input class="vermas" type="button" value="Ver más">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\cebolla_morada.jpg">
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Cebolla Morada</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
+                                    <input class="vermas" type="button" value="Ver más">
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\frambuesa.jpg">
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Frambuesa</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
+                                    <input class="vermas" type="button" value="Ver más">
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\coliflor.jpg">
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Coliflor</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
+                                    <input class="vermas" type="button" value="Ver más">
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\champion.jpg">
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Champiñon</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
+                                    <input class="vermas" type="button" value="Ver más">
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\toronja.jpg">
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Toronja</a></p>
+                                    <p>$25 MXN/pieza</p>
+                                    <p>10 piezas disponibles</p>
+                                    <input class="vermas" type="button" value="Ver más">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h1>Recetas</h1>
+                <div class="container-card">
+                    <div class="card">
+                        <img src="imagen1.jpg" alt="Imagen 1" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-title">Título de la Tarjeta 1</h3>
+                            <p class="card-text">Contenido de la tarjeta 1</p>
+                            <a href="#" class="btn">Botón 1</a>
                         </div>
                     </div>
-                    <br>
+                    <div class="card">
+                        <img src="imagen2.jpg" alt="Imagen 2" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-title">Título de la Tarjeta 2</h3>
+                            <p class="card-text">Contenido de la tarjeta 2</p>
+                            <a href="#" class="btn">Botón 2</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="Recursos/Imgs/Index/Espagueti.jpg" alt="Imagen 3" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-title">Espagueti De Calabacín</h3>
+                            <p class="card-text">Esta deliciosa pasta sin gluten y alta en proteina hara que se convierta en tu platillo favorito</p>
+                            <a href="#" class="btn">Leer Más</a>
+                        </div>
+                    </div>
+                </div>
+                <br>
                 </div>
             </main>
 

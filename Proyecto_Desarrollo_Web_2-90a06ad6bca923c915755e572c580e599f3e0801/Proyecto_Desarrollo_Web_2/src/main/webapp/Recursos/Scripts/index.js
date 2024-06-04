@@ -35,3 +35,35 @@ setInterval(() => {
         nav.classList.remove('fijo');
     }
 });
+
+function mostrarSugerencias(query) {
+    if (query.length == 0) {
+        document.getElementById("sugerencias").innerHTML = "";
+        return;
+    }
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            var sugerencias = JSON.parse(this.responseText);
+            var sugerenciasDiv = document.getElementById("sugerencias");
+            sugerenciasDiv.innerHTML = "";
+            sugerencias.forEach(function(sugerencia) {
+                var item = document.createElement("div");
+                item.className = "suggestion-item";
+                item.innerHTML = sugerencia;
+                item.onclick = function() {
+                    document.getElementById("buscador").value = sugerencia;
+                    document.getElementById("sugerencias").innerHTML = "";
+                };
+                sugerenciasDiv.appendChild(item);
+            });
+        }
+    };
+    xhr.open("GET", "sugerencias?query=" + query, true);
+    xhr.send();
+}
+
+function buscarProducto() {
+    var query = document.getElementById("buscador").value;
+    document.getElementById("query").value = query;
+}
