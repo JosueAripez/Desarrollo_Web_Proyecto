@@ -264,7 +264,7 @@ button.next:hover {
     border-radius: 10px;
     text-align: left;
     transition: transform 0.2s, border-color 0.2s;
-    height: 344px;
+    height: 200px;
     vertical-align: top;
 }
 
