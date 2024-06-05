@@ -11,3 +11,7 @@ function cerrarInfo() {
     });
     document.querySelector('.overlay').classList.remove('active');
 }
+
+function redirectTo(url) {
+    window.location.href = url;
+}
