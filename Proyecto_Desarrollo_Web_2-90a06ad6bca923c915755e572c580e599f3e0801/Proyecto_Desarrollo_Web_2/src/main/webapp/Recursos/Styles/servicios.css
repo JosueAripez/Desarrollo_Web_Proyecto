@@ -1,0 +1,94 @@
+.div1{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.mainservicios{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #ebebeb;
+}
+
+.tarjeta1{
+    position: relative;
+    width: 500px;
+    height: 350px;
+    margin: 40px
+}
+
+.tarjeta1 .cara{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.8s;
+}
+
+.tarjeta1 .enfrente{
+    transform: perspective(900px) rotateY(0deg);
+    box-shadow: 0 5px 10px #1d1d1d;
+}
+
+.tarjeta1 .enfrente img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tarjeta1 .enfrente h2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #ffffff;
+    background: #333333;
+    text-align: center;
+}
+
+.tarjeta1 .atras{
+    transform: perspective(600px) rotateY(180deg);
+    background: #199744;
+    color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+    font-size: 25px;
+}
+
+.tarjeta1 .atras h2{
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.tarjeta1 .atras p{
+    letter-spacing: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.tarjeta1:hover .enfrente{
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.tarjeta1:hover .atras{
+    transform: perspective(600px) rotateY(360deg);
+}
