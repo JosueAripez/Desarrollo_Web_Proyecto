@@ -1,4 +1,3 @@
-
 .producto {
     display: inline-block;
     margin: 10px;
@@ -87,10 +86,11 @@
 }
 
 .producto-container {
+    background-color: #ebebeb;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* Centra los elementos en el contenedor */
-    margin: 20px; /* Agrega un margen externo */
+    
 }
 
 .producto {

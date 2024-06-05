@@ -37,6 +37,7 @@
                 <ul>
                     <li><a href="..\..\\index.jsp">Inicio</a></li>
                     <li><a href="..\..\\productos.jsp">Productos</a></li>
+                    <li><a href="../..//servicios.jsp">Servicios</a></li>
                     <li><a href="..\..\\about.jsp">Nosotros</a></li>
                     <li><a href="..\..\\contacto.jsp">Contacto</a></li>
                 </ul>
@@ -73,7 +74,7 @@
 
                     </td>
                     <td class="product-info">
-                        <h2 class="product-name">Chile habanero</h2>
+                        <h2 class="product-name">Chile Habanero</h2>
                         <p>
                             El habanero es una variedad picante de chile.
                             <br>El chile habanero aporta una gran cantidad de vitamina C en nuestro sistema, además de proveer minerales

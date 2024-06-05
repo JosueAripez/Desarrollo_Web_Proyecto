@@ -64,127 +64,99 @@
                     
             <div class="producto-container">
                 
-                <div class="producto">
-                    <div class="producto-info">
-                        <img src="Recursos/Imgs/Productos/Chile_jalapenio.jpg" alt="Chile Jalapeño" onclick="mostrarInfo(this)">
-                        
-                        <p class="producto-nombre">Chile Jalapeño</p>
-                        
-                    </div>
-                    <div class="info-producto">
-                        <h3>Chile Jalapeño</h3>
-                        <p>Variedad:</p>
-                        <p>Descripción del Producto 1</p>
-                        
-                        <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Ver más</a></p>
-                        <button onclick="cerrarInfo()">Cerrar</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <div class="producto-info">
-                        <img src="Recursos/Imgs/Productos/Melon_Palmira.jpg" alt="Melon Palmira" onclick="mostrarInfo(this)">
-                        <p class="producto-nombre">Melon Palmira</p>
-                    </div>
-                    <div class="info-producto">
-                        <h3>Melon Palmira</h3>
-                        <p>Variedad:</p>
-                        <p>Descripción del Producto 1</p>
-                        <p><a href="Recursos/jspSProductos/melon-palmira.jsp" class="referencia-producto">Ver más</a></p>
-                        <button onclick="cerrarInfo()">Cerrar</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <div class="producto-info">
-                        <img src="Recursos/Imgs/Productos/Fresa.jpg" alt="Fresa" onclick="mostrarInfo(this)">
-                        <p class="producto-nombre">Fresa</p>
-                    </div>
-                    <div class="info-producto">
-                        <h3>Fresa</h3>
-                        <p>Variedad:</p>
-                        <p>Descripción del Producto 1</p>
-                        <p><a href="Recursos/jspSProductos/Fresa.jsp" class="referencia-producto">Ver más</a></p>
-                        <button onclick="cerrarInfo()">Cerrar</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <div class="producto-info">
-                        <img src="Recursos/Imgs/Productos/Chile_Habanero.jpg" alt="Chile Habanero" onclick="mostrarInfo(this)">
-                        <p class="producto-nombre">Chile Habanero</p>
-                    </div>
-                    <div class="info-producto">
-                        <h3>Chile Habanero</h3>
-                        <p>Variedad:</p>
-                        <p>Descripción del Producto 1</p>
-                        <p><a href="Recursos/jspSProductos/Chile-habanero.jsp" class="referencia-producto">Ver más</a></p>
-                        <button onclick="cerrarInfo()">Cerrar</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <div class="producto-info">
-                        <img src="Recursos/Imgs/Productos/Chile_morron.jpg" alt="Chile Morron" onclick="mostrarInfo(this)">
-                        <p class="producto-nombre">Chile Morron</p>
-                    </div>
-                    <div class="info-producto">
-                        <h3>Chile Morron</h3>
-                        <p>Variedad:</p>
-                        <p>Descripción del Producto 1</p>
-                        <p><a href="Recursos/jspSProductos/Chile-morron.jsp" class="referencia-producto">Ver más</a></p>
-                        <button onclick="cerrarInfo()">Cerrar</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <div class="producto-info">
-                        <img src="Recursos/Imgs/Productos/Chile_wero.jpg" alt="Chile Güero" onclick="mostrarInfo(this)">
-                        <p class="producto-nombre">Chile Güero</p>
-                    </div>
-                    <div class="info-producto">
-                        <h3>Chile Güero</h3>
-                        <p>Variedad:</p>
-                        <p>Descripción del Producto 1</p>
-                        <p><a href="Recursos/jspSProductos/Chile-wero.jsp" class="referencia-producto">Ver más</a></p>
-                        <button onclick="cerrarInfo()">Cerrar</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <div class="producto-info">
-                        <img src="Recursos/Imgs/Productos/Ejote.jpg" alt="Ejote" onclick="mostrarInfo(this)">
-                        <p class="producto-nombre">Ejote</p>
-                    </div>
-                    <div class="info-producto">
-                        <h3>Ejote</h3>
-                        <p>Variedad:</p>
-                        <p>Descripción del Producto 1</p>
-                        <p><a href="Recursos/jspSProductos/Ejote.jsp" class="referencia-producto">Ver más</a></p>
-                        <button onclick="cerrarInfo()">Cerrar</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <div class="producto-info">
-                        <img src="Recursos/Imgs/Productos/Pepino.jpg" alt="Pepino" onclick="mostrarInfo(this)">
-                        <p class="producto-nombre">Pepino</p>
-                    </div>
-                    <div class="info-producto">
-                        <h3>Pepino</h3>
-                        <p>Variedad:</p>
-                        <p>Descripción del Producto 1</p>
-                        <p><a href="Recursos/jspSProductos/Pepino.jsp" class="referencia-producto">Ver más</a></p>
-                        <button onclick="cerrarInfo()">Cerrar</button>
-                    </div>
-                </div>
-                <div class="producto">
-                    <div class="producto-info">
-                        <img src="Recursos/Imgs/Productos/Menta.jpg" alt="Menta" onclick="mostrarInfo(this)">
-                        <p class="producto-nombre">Pepino</p>
-                    </div>
-                    <div class="info-producto">
-                        <h3>Menta</h3>
-                        <p>Variedad:</p>
-                        <p>Descripción del Producto 1</p>
-                        <p><a href="Recursos/jspSProductos/Menta.jsp" class="referencia-producto">Ver más</a></p>
-                        <button onclick="cerrarInfo()">Cerrar</button>
-                    </div>
+                <div class="Productos_nuevos">
+                    <table class="Tabla">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\Chile-jalapenio3.png">
+                                    <hr>
+                                    <p>Chile Jalapeño</p>
+                                    <br>
+                                    <p>10 piezas disponibles</p>
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Ver más</a></p>
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\Melon-palmira2.jpg">
+                                    <hr>
+                                    <p>Melon Palmira</p>
+                                    <br>
+                                    <p>10 piezas disponibles</p>
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/melon-palmira.jsp" class="referencia-producto">Ver más</a></p>
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\fresa_1.jpg">
+                                    <hr>
+                                    <p>Fresa</p>
+                                    <br>
+                                    <p>10 piezas disponibles</p>
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Fresa.jsp" class="referencia-producto">Ver más</a></p>
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\Chile_Habanero3.jpg">
+                                    <hr>
+                                    <p>Chile Habanero</p>
+                                    <br>
+                                    <p>10 piezas disponibles</p>
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Chile-habanero.jsp" class="referencia-producto">Ver más</a></p>
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\chile_morron_2.jpg">
+                                    <hr>
+                                    <p>Chile Morron</p>
+                                    <br>
+                                    <p>10 piezas disponibles</p>
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Chile-morron.jsp" class="referencia-producto">Ver más</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\chile_wuero.jpg">
+                                    <hr>
+                                    <p>Chile Güero</p>
+                                    <br>
+                                    <p>10 piezas disponibles</p>
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Chile-wero.jsp" class="referencia-producto">Ver más</a></p>
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\ejote_1.jpg">
+                                    <hr>
+                                    <p>Ejote</p>
+                                    <br>
+                                    <p>10 piezas disponibles</p>
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Ejote.jsp" class="referencia-producto">Ver más</a></p>
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\About\pepino.png">
+                                    <hr>
+                                    <p>Pepino</p>
+                                    <br>
+                                    <p>10 piezas disponibles</p>
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Pepino.jsp" class="referencia-producto">Ver más</a></p>
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\menta_1.jpg">
+                                    <hr>
+                                    <p>Menta</p>
+                                    <br>
+                                    <p>10 piezas disponibles</p>
+                                    <hr>
+                                    <p><a href="Recursos/jspSProductos/Menta.jsp" class="referencia-producto">Ver más</a></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
+                
             <footer class="footer">
                 <div class="container">
                     <div class="footer-column">

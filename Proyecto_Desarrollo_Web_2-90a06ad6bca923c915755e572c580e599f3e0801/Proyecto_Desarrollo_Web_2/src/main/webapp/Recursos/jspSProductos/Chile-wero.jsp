@@ -23,9 +23,12 @@
     </head>
     <body>
         <div class="nav">
+            <header class="header">
+                <p>¡Bienvenidos a Nat's Veggies! La puerta de entrada a la excelencia en productos y servicio</p>
+            </header>
             <div class="contenedor-nav">
                 <img src="../Imgs/Logo_nav.png" class="logo-nav" name="logo-nav">
-                <p>Nat's Veggies </p>
+                <p class="text-nav">Nat's Veggies </p>
                 <input type="text" id="buscador" name="buscador" placeholder="Buscar Productos">
                 <input type="image"id="bb" src="../Imgs\lupa.png">
             </div>
@@ -34,6 +37,7 @@
                 <ul>
                     <li><a href="..\..\\index.jsp">Inicio</a></li>
                     <li><a href="..\..\\productos.jsp">Productos</a></li>
+                    <li><a href="../..//servicios.jsp">Servicios</a></li>
                     <li><a href="..\..\\about.jsp">Nosotros</a></li>
                     <li><a href="..\..\\contacto.jsp">Contacto</a></li>
                 </ul>
@@ -49,13 +53,13 @@
 
                             <div class="carousel__lista">
                                 <div class="carousel__elemento">
-                                    <img src="../Imgs/Productos/Chile_morron.jpg" alt="melon palmira">
+                                    <img src="../Imgs/Productos/chile_wuero_2.jpg" alt="chile wero">
                                 </div>
                                 <div class="carousel__elemento">
-                                    <img src="../Imgs/Productos/Melon_Palmira.jpg" alt="melon palmira">
+                                    <img src="../Imgs/Productos/chile_wuero.jpg" alt="chile wero">
                                 </div>
                                 <div class="carousel__elemento">
-                                    <img src="../Imgs/Productos/Melon_Palmira.jpg" alt="melon palmira">
+                                    <img src="../Imgs/Productos/Chile_wero.jpg" alt="chile wero">
                                 </div>
                                 
                                 
@@ -72,7 +76,7 @@
 
                 </td>
                 <td class="product-info">
-                    <h2 class="product-name">Nombre del Producto</h2>
+                    <h2 class="product-name">Chile Güero</h2>
                     <p>Descripción del producto.</p>
                     <p>Otras informaciones relevantes sobre el producto.</p>
                 </td>
