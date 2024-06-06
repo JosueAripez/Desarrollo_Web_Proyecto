@@ -21,7 +21,7 @@ public class SugerenciasServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     private static final String[] productos = {
-        "Manzana", "Plátano", "Pera", "Fresa", "Naranja", "Uva", "Melón", "Sandía", "Kiwi", "Piña"
+        "Manzana", "Platano", "Pera", "Fresa", "Naranja", "Uva", "Melon", "Sandía", "Kiwi", "Piña"
     };
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

@@ -21,9 +21,27 @@ public class BuscarServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String query = request.getParameter("query");
-        // Aquí puedes agregar la lógica para buscar el producto en tu lista de productos
-        // y redirigir a una página de resultados con los productos encontrados
-        response.sendRedirect("resultados.jsp?query=" + query);
+        String query = request.getParameter("query").toLowerCase();
+
+        try {
+            switch (query) {
+                case "manzana":
+                    response.sendRedirect("manzana.jsp");
+                    break;
+                case "plátano":
+                    response.sendRedirect("platano.jsp");
+                    break;
+                case "pepino":
+                    response.sendRedirect("Pepino.jsp");
+                    break;
+                // Agrega más casos según los productos que tienes
+                default:
+                    response.sendRedirect("producto_no_encontrado.jsp");
+                    break;
+            }
+        } catch (IllegalStateException e) {
+            // Manejar el error
+            e.printStackTrace();
+        }
     }
 }

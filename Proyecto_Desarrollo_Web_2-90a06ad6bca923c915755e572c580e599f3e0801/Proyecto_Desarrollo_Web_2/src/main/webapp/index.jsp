@@ -39,7 +39,7 @@
                     <p class="text-nav">Nat's Veggies</p>
                     <input type="text" id="buscador" name="buscador" placeholder="Buscar Productos" onkeyup="mostrarSugerencias(this.value)">
                     <div id="sugerencias" class="suggestions"></div>
-                    <form action="buscar" method="get">
+                    <form action="buscar" method="get" onsubmit="return buscarProducto()">
                         <input type="hidden" id="query" name="query">
                         <input type="image"id="bb" src="Recursos\Imgs\lupa.png" onclick="buscarProducto()">
                     </form>
@@ -159,7 +159,7 @@
                 <br>
 
                 <br><!-- comment -->
-                <h1>Regresan</h1>
+                <h1>Agotados</h1>
                 <div class="Productos_nuevos">
                     <table class="Tabla2">
                         <tbody>
@@ -170,8 +170,8 @@
                                         <div class="info_producto">
                                             <p class="nombre_producto">Mango</p>
                                             <p class="clave_producto">Clave: 001</p>
-                                            <p class="descripcion_producto">Deliciosaos mangos.</p>
-                                            <input class="vermas2" type="button" value="Ver más">
+                                            <p class="descripcion_producto">El mango de la especie Mangifera indica es una fruta jugosa (más específicamente una drupa) y tiene numerosas variedades con formas, colores, texturas y sabores muy variables.</p>
+                                            
                                         </div>
                                     </div>
                                 </td>
@@ -181,8 +181,8 @@
                                         <div class="info_producto">
                                             <p class="nombre_producto">Pera</p>
                                             <p class="clave_producto">Clave: 002</p>
-                                            <p class="descripcion_producto">Pera fresca.</p>
-                                            <input class="vermas2" type="button" value="Ver más">
+                                            <p class="descripcion_producto">En China son consideradas como un símbolo de longevidad porque, aunque sus flores sugieren fragilidad, crecen en el peral, un árbol caracterizado por su fuerza y longevidad capaz de resistir las sequías más duras.</p>
+                                            
                                         </div>
                                     </div>
                                 </td>
@@ -194,8 +194,8 @@
                                         <div class="info_producto">
                                             <p class="nombre_producto">Melon Fresco</p>
                                             <p class="clave_producto">Clave: 003</p>
-                                            <p class="descripcion_producto">Melon saludable.</p>
-                                            <input class="vermas2" type="button" value="Ver más">
+                                            <p class="descripcion_producto">es una especie de la familia de las cucurbitáceas. Domesticada hace más de cuatro mil años en la región mediterránea oriental y Asia occidental, el origen exacto de la especie silvestre es aún desconocido.</p>
+                                            
                                         </div>
                                     </div>
                                 </td>
@@ -205,8 +205,8 @@
                                         <div class="info_producto">
                                             <p class="nombre_producto">Ejote</p>
                                             <p class="clave_producto">Clave: 004</p>
-                                            <p class="descripcion_producto">Ejote.</p>
-                                            <input class="vermas2" type="button" value="Ver más">
+                                            <p class="descripcion_producto">El nombre "ejote" viene del náhuatl exotl (haba verde). El nombre "judía" viene del árabe (yudiya), y éste del latín (iudaeus) y del hebreo (yehudi). "Alubia" viene del árabe (al-lubíia), tomado del persa (lubía).</p>
+                                            
                                         </div>
                                     </div>
                                 </td>

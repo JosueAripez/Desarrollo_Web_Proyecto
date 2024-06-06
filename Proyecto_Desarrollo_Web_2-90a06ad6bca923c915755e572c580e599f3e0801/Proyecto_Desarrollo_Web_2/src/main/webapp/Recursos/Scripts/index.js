@@ -36,34 +36,53 @@ setInterval(() => {
     }
 });
 
-function mostrarSugerencias(query) {
-    if (query.length == 0) {
-        document.getElementById("sugerencias").innerHTML = "";
+const productos = [
+    "Manzana",
+    "Platano",
+    "Fresa",
+    "Naranja",
+    "Pera",
+    "Uva",
+    "Kiwi",
+    "Mango",
+    "Piña",
+    "Sandia",
+    "Melon",
+    "Cereza",
+    "Limon",
+    "Mandarina",
+    "Papaya",
+    "Frambuesa",
+    "pepino",
+    "Durazno"
+];
+
+function mostrarSugerencias(value) {
+    const sugerencias = document.getElementById('sugerencias');
+    sugerencias.innerHTML = '';
+    
+    if (value.length === 0) {
         return;
     }
-    var xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            var sugerencias = JSON.parse(this.responseText);
-            var sugerenciasDiv = document.getElementById("sugerencias");
-            sugerenciasDiv.innerHTML = "";
-            sugerencias.forEach(function(sugerencia) {
-                var item = document.createElement("div");
-                item.className = "suggestion-item";
-                item.innerHTML = sugerencia;
-                item.onclick = function() {
-                    document.getElementById("buscador").value = sugerencia;
-                    document.getElementById("sugerencias").innerHTML = "";
-                };
-                sugerenciasDiv.appendChild(item);
-            });
-        }
-    };
-    xhr.open("GET", "sugerencias?query=" + query, true);
-    xhr.send();
+    
+    const filteredProducts = productos.filter(product => product.toLowerCase().includes(value.toLowerCase()));
+    
+    filteredProducts.forEach(product => {
+        const div = document.createElement('div');
+        div.classList.add('suggestion');
+        div.innerText = product;
+        div.onclick = () => seleccionarProducto(product);
+        sugerencias.appendChild(div);
+    });
+}
+
+function seleccionarProducto(product) {
+    document.getElementById('buscador').value = product;
+    document.getElementById('sugerencias').innerHTML = '';
 }
 
 function buscarProducto() {
-    var query = document.getElementById("buscador").value;
-    document.getElementById("query").value = query;
+    const query = document.getElementById('buscador').value;
+    document.getElementById('query').value = query;
+    return true;
 }
