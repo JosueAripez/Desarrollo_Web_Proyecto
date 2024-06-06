@@ -246,9 +246,9 @@ button.next:hover {
 }
 
 .vermas:hover {
-    background-color: #dcdcdc; /* Cambia el color de fondo al pasar el cursor */
-    color: #333333; /* Cambia el color del texto al pasar el cursor */
-    border-color: #dcdcdc; /* Cambia el color del borde al pasar el cursor */
+    background-color: #119744;
+    color: #fff;
+    border-color: #119744;/* Cambia el color del borde al pasar el cursor */
 }
 
 .Tabla2
@@ -319,7 +319,7 @@ button.next:hover {
     border: 2px solid #ebebeb;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-    width: 100px;
+    width: 200px;
     height: 35px;
     margin-top: 10px;
 }

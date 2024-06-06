@@ -91,66 +91,66 @@
                         <tbody>
                             <tr>
                                 <td>
-                                        <img class="img_tabla" src="Recursos\Imgs\Productos\fresa_1.jpg">
-                                        <hr>
-                                        <p>Fresa</p>
-                                        <p>Variedades:<br>
-                                            Fronteras<br>
-                                            Sayulita<br><br>
-                                        </p>
-                                        <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Fresa.jsp" class="referencia-producto">Ver más</a></p>
-                                    </td>
-                                    <td>
-                                        <img class="img_tabla" src="Recursos\Imgs\Productos\Melon-palmira2.jpg">
-                                        <hr>
-                                        <p>Melon</p>
-                                        <p>Variedad:<br>
-                                            Palmira F1<br><br><br>
-                                        </p>
-                                        <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/melon.jsp" class="referencia-producto">Ver más</a></p>
-                                    </td>
-                                <td>
-                                        <img class="img_tabla" src="Recursos\Imgs\Productos\verde.jpg">
-                                        <hr>
-                                        <p>Tomatillo Verde</p>
-                                        <p>Variedad:<br>
-                                            Siqueiros<br><br><br>
-
-                                        </p>
-                                        <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Tomatillo-verde.jsp" class="referencia-producto">Ver más</a></p>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\fresa_1.jpg">
+                                    <hr>
+                                    <p>Fresa</p>
+                                    <p>Variedades:<br>
+                                        Fronteras<br>
+                                        Sayulita<br><br>
+                                    </p>
+                                    <hr>
+                                    <p><a class="vermas" href="Recursos/jspSProductos/Fresa.jsp" class="referencia-producto">Ver más</a></p>
                                 </td>
                                 <td>
-                                        <img class="img_tabla" src="Recursos\Imgs\Productos\ejote_1.jpg">
-                                        <hr>
-                                        <p>Ejote Blue Lake
-                                        <p>Variedades:<br>
-                                            Greenback<br>
-                                            Valentino<br>
-                                            Coyote
-                                        </p>
-                                        <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Ejote-bluelake.jsp" class="referencia-producto">Ver más</a></p>
-                                    </td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\Melon-palmira2.jpg">
+                                    <hr>
+                                    <p>Melon</p>
+                                    <p>Variedad:<br>
+                                        Palmira F1<br><br><br>
+                                    </p>
+                                    <hr>
+                                    <p><a class="vermas" href="Recursos/jspSProductos/melon.jsp" class="referencia-producto">Ver más</a></p>
+                                </td>
                                 <td>
-                                        <img class="img_tabla" src="Recursos\Imgs\Productos\rojo.png">
-                                        <hr>
-                                        <p>Chile Habanero Rojo</p>
-                                        <p>Variedad:<br>
-                                            Maximo<br><br><br>
-                                        </p>
-                                        <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Habanero-rojo.jsp" class="referencia-producto">Ver más</a></p>
-                                    </td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\verde.jpg">
+                                    <hr>
+                                    <p>Tomatillo Verde</p>
+                                    <p>Variedad:<br>
+                                        Siqueiros<br><br><br>
+
+                                    </p>
+                                    <hr>
+                                    <p><a class="vermas" href="Recursos/jspSProductos/Tomatillo-verde.jsp" class="referencia-producto">Ver más</a></p>
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\ejote_1.jpg">
+                                    <hr>
+                                    <p>Ejote Blue Lake
+                                    <p>Variedades:<br>
+                                        Greenback<br>
+                                        Valentino<br>
+                                        Coyote
+                                    </p>
+                                    <hr>
+                                    <p><a class="vermas" href="Recursos/jspSProductos/Ejote-bluelake.jsp" class="referencia-producto">Ver más</a></p>
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\rojo.png">
+                                    <hr>
+                                    <p>Chile Habanero Rojo</p>
+                                    <p>Variedad:<br>
+                                        Maximo<br><br><br>
+                                    </p>
+                                    <hr>
+                                    <p><a class="vermas" href="Recursos/jspSProductos/Habanero-rojo.jsp" class="referencia-producto">Ver más</a></p>
+                                </td>
                             </tr>
-                            
+
                         </tbody>
                     </table>
                 </div>
                 <br>
-                
+
                 <br><!-- comment -->
                 <h1>Regresan</h1>
                 <div class="Productos_nuevos">
@@ -204,30 +204,6 @@
                                     </div>
                                 </td>
                             </tr>
-                            <tr>
-                                <td>
-                                    <div class="celda_contenido">
-                                        <img class="img_tabla2" src="Recursos/Imgs/Productos/rabano.jpg" alt="Rabano">
-                                        <div class="info_producto">
-                                            <p class="nombre_producto">Rabano</p>
-                                            <p class="clave_producto">Clave: 005</p>
-                                            <p class="descripcion_producto">Rabano</p>
-                                            <input class="vermas2" type="button" value="Ver más">
-                                        </div>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="celda_contenido">
-                                        <img class="img_tabla2" src="Recursos/Imgs/Productos/menta.jpg" alt="Menta">
-                                        <div class="info_producto">
-                                            <p class="nombre_producto">Menta</p>
-                                            <p class="clave_producto">Clave: 006</p>
-                                            <p class="descripcion_producto">Menta.</p>
-                                            <input class="vermas2" type="button" value="Ver más">
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -240,7 +216,7 @@
                             <h3 class="card-title">Produce</h3>
                             <p class="card-text">Segun la necesidad del cliente y la demanda de temporada, Nat's Veggies
                                 produce las mejores verduras y frutas del mercado</p>
-                            
+
                         </div>
                     </div>
                     <div class="card">
@@ -248,7 +224,7 @@
                         <div class="card-content">
                             <h3 class="card-title">Empaca</h3>
                             <p class="card-text">En sus propias instalaciones, se empacan en diferentes presentaciones los productos obtenidos del campo</p>
-                            
+
                         </div>
                     </div>
                     <div class="card">
@@ -256,7 +232,7 @@
                         <div class="card-content">
                             <h3 class="card-title">Transporta</h3>
                             <p class="card-text">Nat's Veggies es el encargado de transportar su propio producto en mercados locales e internacionales</p>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -267,65 +243,65 @@
                         <tbody>
                             <tr>
                                 <td>
-                                        <img class="img_tabla" src="Recursos\Imgs\Productos\Chile-jalapenio3.png">
-                                        <hr>
-                                        <p>Chile Jalapeño
-                                        <p>Variedades:<br>
-                                            Purépecha<br>
-                                            Everman<br><br>
-                                            
-                                        </p>
-                                        <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Jalapeño.jsp" class="referencia-producto">Ver más</a></p>
-                                    </td>
-                                    <td>
-                                        <img class="img_tabla" src="Recursos\Imgs\Productos\serrano.jpg">
-                                        <hr>
-                                        <p>&emsp;Chile Serrano&emsp;
-                                        <p>Variedad:<br>
-                                            Cadereyta<br><br><br>
-                                        </p>
-                                        <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Serrano.jsp" class="referencia-producto">Ver más</a></p>
-                                    </td>
-                                <td>
-                                        <img class="img_tabla" src="Recursos\Imgs\Productos\verde.jpg">
-                                        <hr>
-                                        <p>Tomatillo Verde</p>
-                                        <p>Variedad:<br>
-                                            Siqueiros<br><br><br>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\Chile-jalapenio3.png">
+                                    <hr>
+                                    <p>Chile Jalapeño
+                                    <p>Variedades:<br>
+                                        Purépecha<br>
+                                        Everman<br><br>
 
-                                        </p>
-                                        <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Tomatillo-verde.jsp" class="referencia-producto">Ver más</a></p>
-                                    </td>
+                                    </p>
+                                    <hr>
+                                    <p><a class="vermas" href="Recursos/jspSProductos/Jalapeño.jsp" class="referencia-producto">Ver más</a></p>
+                                </td>
                                 <td>
-                                        <img class="img_tabla" src="Recursos\Imgs\Productos\chile_wuero.jpg">
-                                        <hr>
-                                        <p>Chile Güero</p>
-                                        <p>Variedad:<br>
-                                            Caribe Real<br><br><br>
-                                        </p>
-                                        <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Chile-wero.jsp" class="referencia-producto">Ver más</a></p>
-                                    </td>
-                                    <td>
-                                        <img class="img_tabla" src="Recursos\Imgs\Productos\Chile_Habanero3.jpg">
-                                        <hr>
-                                        <p>Chile Habanero Naranja</p>
-                                        <p>Variedad:<br>
-                                            Megalodon<br><br><br>
-                                        </p>
-                                        <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Habanero-naranja.jsp" class="referencia-producto">Ver más</a></p>
-                                    </td>
-                                
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\serrano.jpg">
+                                    <hr>
+                                    <p>&emsp;Chile Serrano&emsp;
+                                    <p>Variedad:<br>
+                                        Cadereyta<br><br><br>
+                                    </p>
+                                    <hr>
+                                    <p><a class="vermas" href="Recursos/jspSProductos/Serrano.jsp" class="referencia-producto">Ver más</a></p>
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\verde.jpg">
+                                    <hr>
+                                    <p>Tomatillo Verde</p>
+                                    <p>Variedad:<br>
+                                        Siqueiros<br><br><br>
+
+                                    </p>
+                                    <hr>
+                                    <p><a class="vermas" href="Recursos/jspSProductos/Tomatillo-verde.jsp" class="referencia-producto">Ver más</a></p>
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\chile_wuero.jpg">
+                                    <hr>
+                                    <p>Chile Güero</p>
+                                    <p>Variedad:<br>
+                                        Caribe Real<br><br><br>
+                                    </p>
+                                    <hr>
+                                    <p><a class="vermas" href="Recursos/jspSProductos/Chile-wero.jsp" class="referencia-producto">Ver más</a></p>
+                                </td>
+                                <td>
+                                    <img class="img_tabla" src="Recursos\Imgs\Productos\Chile_Habanero3.jpg">
+                                    <hr>
+                                    <p>Chile Habanero Naranja</p>
+                                    <p>Variedad:<br>
+                                        Megalodon<br><br><br>
+                                    </p>
+                                    <hr>
+                                    <p><a class="vermas" href="Recursos/jspSProductos/Habanero-naranja.jsp" class="referencia-producto">Ver más</a></p>
+                                </td>
+
                             </tr>
                         </tbody>
                     </table>
                 </div>
                 <br><!-- comment -->
-                
+
                 <br>
                 <h1>Los Favoritos</h1>
                 <div class="Productos_nuevos">
@@ -385,17 +361,17 @@
                                     <hr>
                                     <p><a class="vermas" href="Recursos/jspSProductos/Zanahoria-morada.jsp" class="referencia-producto">Ver más</a></p>
                                 </td>
-                                    
-                                
+
+
                             </tr>
-                            
+
                         </tbody>
                     </table>
                 </div>
                 <br>
-                
+
                 <br>
-                
+
                 <br>
                 </div>
             </main>
