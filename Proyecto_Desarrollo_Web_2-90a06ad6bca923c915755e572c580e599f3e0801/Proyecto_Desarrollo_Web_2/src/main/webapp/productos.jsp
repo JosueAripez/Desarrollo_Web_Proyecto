@@ -281,16 +281,7 @@
                                         <hr>
                                         <p><a class="vermas" href="Recursos/jspSProductos/Chile-shishito.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
-                                    <td>
-                                        <img class="img_tabla" src="Recursos\Imgs\Productos\menta_1.jpg">
-                                        <hr>
-                                        <p>Menta</p>
-                                        <p>Variedad:<br>
-                                            Hierbabuena<br><br><br>
-                                        
-                                        <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Menta.jsp" class="referencia-producto">Ver más</a></p>
-                                    </td>
+                                    
                                 </tr>
                             </tbody>
                         </table>

@@ -132,24 +132,23 @@
         </table>
 
             <p class="parrafo-detalles">
-                La obtención de mejor rendimiento y mayor calidad, está siempre ligado a la utilización 
-                de los productos más adecuados e idóneos para cada sistema productivo. En el sustrato 
-                Hydrocoir, que comercializa GREENHOW se cuidan todos los aspectos. Desde el inicio, 
-                con los cuidados de la palma, para luego seguir con el procesamiento del coco obteniéndose 
-                así la fibra de coco requerida. En el proceso se controla minuciosa y profesionalmente: 
-                la limpieza, el corte, cribado, secado, mezclado y llenado de envases diversos, cumpliendo 
-                certificaciones claves como OMRI, que garantiza que el producto es orgánico. Y como ISO 9001, 
-                que asegura; calidad, estabilidad y homogeneidad del producto final que comercializa GREENHOW.
+            Nat's Veggies, reconocida por su excelencia en la agricultura mexicana y su presencia 
+            destacada en el mercado estadounidense, se distingue por su compromiso inquebrantable 
+            con la calidad en todas las etapas de producción. Desde la selección cuidadosa de los 
+            campos de cultivo hasta el meticuloso proceso de empaquetado y transporte, cada paso se 
+            realiza con el más alto estándar de calidad. En Nat's Veggies, se enfatiza la importancia de 
+            una producción sostenible y responsable, lo que se refleja en la certificación "Senasica" y 
+            "PrimusGFS", que garantizan el cumplimiento de regulaciones rigurosas y la seguridad alimentaria de los productos.
+
             </p>
             <p class="parrafo-detalles">
-                El resultado es una fibra garantizada, de excelente calidad que posiciona a Hydrocoir como una 
-                excelente alternativa para ser utilizada en sistemas de producción intensivos y eficientes, que 
-                busquen optimizar la calidad, el rendimiento y por lo tanto, el retorno de la inversión (ROI). 
-                Mejor producto para mejores resultados. En contraparte hay sustratos de menor costo y calidad que 
-                servirán para sistemas productivos que buscan minimizar costos de entrada sin medir el impacto final
-                en la rentabilidad. Si lo que buscas es un producto que potencie la genética, nutrición y el manejo 
-                para producir más y de mejor calidad, optimizando el retorno de la inversión, Hydrocoir es para ti. 
-                De profesional a profesional, te recomendamos Hydrocoir.
+                Los productos de Nat's Veggies son más que simples vegetales; son el resultado de un 
+                arduo trabajo y dedicación hacia la excelencia. Desde el campo hasta la mesa del 
+                consumidor, se cuida cada detalle para garantizar la frescura, sabor y calidad superiores. Si 
+                buscas productos que no solo cumplan, sino que superen tus expectativas en términos de 
+                calidad y rendimiento, Nat's Veggies es la elección indiscutible. Confiables, seguros y con 
+                un compromiso innegable con la satisfacción del cliente, los productos de Nat's Veggies 
+                son la opción preferida para aquellos que buscan lo mejor en el mercado de productos agrícolas.
             </p>
 
             <footer class="footer">

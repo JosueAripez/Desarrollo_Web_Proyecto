@@ -62,15 +62,12 @@
             </div>
 
                     <div class="div1">
-                        <h1>Con GreenScan® podrás evaluar el desarrollo espacial de tus cultivos</h1>
+                        <h1>Nat's Veggies pone los mas altos cuidados en sus productos</h1>
                         <hr>
-                        <p>Con el uso de imágenes satelitales podrás conocer la distribución del crecimiento foliar y clorofila de las
-                            plantas en el tiempo, mediante el uso de índices de vegetación. Los índices de vegetación te brindarán
-                            información para detectar algún daño en tu cultivo ocasionado por plagas, enfermedades, estrés hídrico,
-                            entre otros. Sin la necesidad de recorrer toda tu parcela de cultivo, obtendrás información para comprender
-                            mejor tus campos de cultivo, con ello, podrás tomar decisiones informadas para definir zonas de manejo para
-                            actividades como; aplicaciones foliares, podas, control de plagas y enfermedades. Con la única finalidad de
-                            optimizar tus recursos y maximizar tu productividad.</p>
+                        <p>Con los productos de más alta calidad y los mayores estandares de sanidad y cuidado
+                        de cultivos en el mercado, Nat's Veggies maneja su proceso de producción procurando la
+                        excelencia incluso en los minimos detalles, centrandose en destacar sobre el resto de 
+                        productores y demostrando su gran potencial agricola.</p>
                     </div>       
             
             
@@ -78,12 +75,12 @@
                 <div class="tarjeta1">
                     <div class="cara enfrente">
                         <img src="Recursos/Imgs/servicios/tiempo.jpg" alt="">
-                        <h2>Ahorra tiempo</h2>
+                        <h2>Manejo del tiempo</h2>
                     </div>
                     <div class="cara atras">
-                        <p>Con la tecnología de GreenScan®, podrás visualizar de manera más eficaz el sitio específico
-                            que requiere control, permitiéndote ahorrar tiempo al acudir puntualmente a donde se necesita.
-                            Invierte el tiempo ahorrado con quienes más quieres.</p>
+                        <p>Con una gran planificación, Nat's Veggies se anticipa a las tendencias del mercado, procurando
+                        ofrecer al mercado nacional e internacional los productos de temporada de mayor calidad y de manera
+                        oportuna, evitando retrasos en la producción.</p>
                     </div>
                 </div>
                 
@@ -93,21 +90,20 @@
                         <h2>Monitorea tus cultivos</h2>
                     </div>
                     <div class="cara atras">
-                        <p>Con ello, puedes detectar cambios en la salud de tus cultivos en grandes extensiones y en periodos
-                            cortos de tiempo. Por lo que podrás actuar de manera inmediata para identificar posibles adversidades,
-                            que podrían afectar el rendimiento de tu cultivo. Actuar en tiempo y forma maximizará tus recursos.</p>
+                        <p>Con ayuda de uno de los mejores ingenieros de Baja California, Nat's Veggies lleva un control
+                        especial de sus cultivos, tanto en control de temperatura, nutrición, producción de la planta y 
+                        estandares de calidad.</p>
                     </div>
                 </div>
                 
                 <div class="tarjeta1">
                     <div class="cara enfrente">
                         <img src="Recursos/Imgs/servicios/agenda.jpg" alt="">
-                        <h2>Planifica tus labores</h2>
+                        <h2>Planificación</h2>
                     </div>
                     <div class="cara atras">
-                        <p>Al saber concretamente dónde radica la situación a manejar, podrás planear mejor tus acciones, por ejemplo,
-                            cuándo realizar: aplicaciones para el control de plagas y enfermedades, podas, entre otras. Gestiona los
-                            desafíos antes de que estos se vuelvan inmanejables.</p>
+                        <p>Mediante una serie de rutinas muy bien definidas y buena coordinación entre la administración del
+                        campo y logistica, se logra reducir contratiempos, logrando cumplir con los pedidos en tiempo y forma</p>
                     </div>
                 </div>
                 
@@ -117,9 +113,9 @@
                         <h2>Maximiza la producción</h2>
                     </div>
                     <div class="cara atras">
-                        <p>Al ahorrar tiempo acudiendo puntualmente al sitio específico, monitorear periódicamente tus cultivos, y
-                            planificar mejor tus actividades, tu producción se verá beneficiada y como resultado, obtendrás un mayor
-                            retorno de inversión.</p>
+                        <p>Al ahorrar tiempo acudiendo puntualmente llevando una buena gestión de los cultivos, planificación y
+                        mediante el uso de los mejores materiales tanto de nutrición como de prevención de plagas para cultivos, 
+                        se logra maximizar la producción más que cualquier otra productora agricola del mercado.</p>
                     </div>
                 </div>
                 
