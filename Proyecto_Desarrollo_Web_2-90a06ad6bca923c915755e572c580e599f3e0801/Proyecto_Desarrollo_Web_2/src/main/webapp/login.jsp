@@ -5,6 +5,14 @@
 --%>
 
 <%@ page contentType="text/html" pageEncoding="UTF-8" %>
+<%
+    String userName = request.getParameter("userName");
+    HttpSession currentSession = request.getSession(false);
+    String sessionUserName = (currentSession != null) ? (String) currentSession.getAttribute("userName") : null;
+    if (userName != null) {
+        sessionUserName = userName; // Si se proporciona un nombre de usuario en el parámetro, lo usamos
+    }
+%>
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -13,20 +21,7 @@
         <link href="Recursos/Imgs/Logo_NV.png" rel="icon">
         <link href="Recursos/Styles/Login.css" rel="stylesheet">
 
-        <script>
-            function cerrarSesion() {
-                // Envía una solicitud GET al servlet de logout
-                var xhr = new XMLHttpRequest();
-                xhr.open("GET", "logout", true);
-                xhr.onreadystatechange = function () {
-                    if (xhr.readyState === 4 && xhr.status === 200) {
-                        // Redirige a la página de inicio después de cerrar sesión
-                        window.location.href = "index.jsp";
-                    }
-                };
-                xhr.send();
-            }
-        </script>
+       
 
     </head>
     <body>
@@ -38,30 +33,83 @@
                 <h1>¡Bienvenido!</h1>
                 <br>
                 <br>
-                <form action="login" method="post">
-                    <input type="text" name="text" id="text" placeholder="Ingresa Usuario" autofocus required>
+                <% if (sessionUserName == null && request.getParameter("Registro") == null && request.getParameter("Recuperarpwd") == null && request.getParameter("contrasenia") == null ) { %>
+                <form action="ControllerUsuario" method="post">
+                    
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingresa Usuario" autofocus required>
                     <br>
                     <br>
-                    <input type="password" id="contrasena" name="contrasena" placeholder="Ingresa Contraseña" required>
+                    <input type="password" id="contrasena" name="contra1" placeholder="Ingresa Contraseña" required>
                     <br>
                     <br>
-                    <input type="checkbox" name="recordar">
-                    <label for="recordar">Recordar Datos</label>
+                    
                     <br>
                     <br>
 
                     <input type="submit" name="iniciar" value="Iniciar Sesión" class="boton">
                     <br>
-                    <br>
-                    <input type="button" name="cerrar" value="Cerrar Sesión" class="boton-cerrar" onclick="cerrarSesion()">
+                    
                 </form>
-                <br>
-                <p>¿Olvidaste Tu Contraseña?</p>
-                <hr>
-                <p>¿No tienes Ninguna Cuenta?</p>
+                <a href="login.jsp?Registro"><p>¿No tienes Ninguna Cuenta?</p></a>
+                <a href="login.jsp?Recuperarpwd"><p>¿Olvidaste Tu Contraseña?</p></a>
+                <% } %>
                 <% if (request.getParameter("error") != null) { %>
                 <p style="color: red;">Usuario o contraseña incorrectos.</p>
                 <% }%>
+                <%if(sessionUserName !=null){ %>
+                    <br>
+                    <form action="ControllerUsuario?action=logout" method="post">
+                        <button type="submit" class="boton-cerrar">Cerrar Sesión</button>
+                    </form>
+                <% } %>
+                <br>
+                
+                <hr>
+                
+                
+                <% if (request.getParameter("Registro") != null) { %>
+                    <form action="ControllerUsuario?action=addUser" method="post">
+                    
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingresa Usuario" autofocus required>
+                    <br>
+                    <br>
+                    <input type="text" name="id" id="id" placeholder="Ingresa tu ID" required>
+                    <br>
+                    <br>
+                    <input type="password" id="pwd" name="pwd" placeholder="Ingresa Contraseña" required>
+                    <br>
+                    <br>
+
+                    <br>
+                    <br>
+
+                    <input type="submit" name="iniciar" value="Iniciar Sesión" class="boton">
+                    <br>
+                </form>
+                <% }%>
+                <% if (request.getParameter("Recuperarpwd") != null) { %>
+                    <h1>Recuperar Contraseña</h1>
+                        <form action="ControllerUsuario?action=Recuperarpwd" method="post">
+                            <label for="nombre">Nombre de Usuario:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                            <br>
+                            <br>
+                            <label for="id">ID de Usuario:</label>
+                            <input type="text" id="id" name="id" required>
+                            <br>
+                            <br>
+                            
+                            <input type="submit" value="Recuperar Contraseña" class="boton">
+                        </form>
+                
+                <% }%>
+                <% if (request.getParameter("contrasenia") != null) { %>
+                    <h2>Contraseña recuperada:</h2>
+                    <p><%= request.getParameter("contrasenia") %></p>
+                    <form action="ControllerUsuario?action=logout" method="post">
+                        <input type="submit" value="Atras" class="boton-cerrar">
+                    </form>
+                <% } %>
             </div>
         </main>
         <footer class="footer">

@@ -97,7 +97,10 @@
 
                         </div>
                         <div class="text-box">
-                            <p>Texto sobre fondo de color</p>
+                            <p>Dirección de nuestras oficinas:
+                                Parcela 216, Carretera Ensenada-La Paz, C.P. 22790, Ensenada, 
+                                Baja California, México.
+                            </p>
                         </div>
                     </div>
                 </div>

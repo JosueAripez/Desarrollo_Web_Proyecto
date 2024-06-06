@@ -7,7 +7,12 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ page import="javax.servlet.http.HttpSession" %>
 <%
-    String nombreUsuario = (session != null) ? (String) session.getAttribute("usuario") : null;
+    String userName = request.getParameter("userName");
+    HttpSession currentSession = request.getSession(false);
+    String sessionUserName = (currentSession != null) ? (String) currentSession.getAttribute("userName") : null;
+    if (userName != null) {
+        sessionUserName = userName; // Si se proporciona un nombre de usuario en el parámetro, lo usamos
+    }
 %>
 
 <!DOCTYPE html>
@@ -41,9 +46,11 @@
                     <form action="login.jsp" method="get">
                         <input class="logo-nav" type="image" src="Recursos/Imgs/usuario.png" alt="Botón de inicio de sesión">
                     </form>
-                    <p><%= (nombreUsuario != null) ? nombreUsuario : ""%></p>
-                    <% if (nombreUsuario != null) { %>
-
+                    <% if (sessionUserName != null) { %>
+                    <p><%= sessionUserName %></p>
+                    
+                    <% }else{ %>
+                    <p></p>
                     <% }%>
                 </div>
                 <hr class="espacio-nav">
