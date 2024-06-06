@@ -51,13 +51,13 @@
                             <div class="carousel__contenedor">
                                 <div class="carousel__lista">
                                     <div class="carousel__elemento">
-                                        <img src="../Imgs/Productos/Chile_Habanero.jpg" alt="chile habanero">
+                                        <img src="../Imgs/Productos/rojo.png" alt="chile habanero">
                                     </div>
                                     <div class="carousel__elemento">
-                                        <img src="../Imgs/Productos/Chile_Habanero2.jpg" alt="chile habanero">
+                                        <img src="../Imgs/Productos/rojo-2.jpeg" alt="chile habanero">
                                     </div>
                                     <div class="carousel__elemento">
-                                        <img src="../Imgs/Productos/Chile_Habanero3.jpg" alt="chile-habanero">
+                                        <img src="../Imgs/Productos/rojo-3.jpg" alt="chile-habanero">
                                     </div>
 
 
@@ -74,15 +74,12 @@
 
                     </td>
                     <td class="product-info">
-                        <h2 class="product-name">Chile Habanero</h2>
+                        <h2 class="product-name">Chile Habanero Rojo</h2>
                         <p>
-                            El habanero es una variedad picante de chile.
-                            <br>El chile habanero aporta una gran cantidad de vitamina C en nuestro sistema, además de proveer minerales
-                            <br>como el potasio, hierro y magnesio.
-                        </p>
-                        <p>
-                            La superficie cosechada en México en un año promedio es de alrededor de 450 hectáreas en total, con 5
-                            <br>mil toneladas de producción, cuyo valor puede ser superior a los 90 millones de pesos.
+                            Este chile rojo es apreciado por su nivel de picor y se utiliza para realzar tus platillos favoritos con<br>
+                            un toque de calor. Además de su delicioso sabor, el chile habanero rojo es una fuente de antioxidantes<br>
+                            y vitamina C. Asegúrate de tener siempre este chile habanero fresco y sabroso en tu cocina para disfrutar<br>
+                            de su versatilidad y beneficios para la salud.
                         </p>
                     </td>
                 </tr>
@@ -90,42 +87,51 @@
 
 
             <table id="Detalles-producto">
-                <thead>
-                    <tr>
-                        <th colspan="2">INFORMACIÓN DEL PRODUCTO</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Planta herbácea o arbusto</td>
-                        <td>2.5 metros (altura)</td>
-                    </tr>
-                    <tr>
-                        <td>Potasio (por porción)</td>
-                        <td>128 miligramos</td>
-                    </tr>
-                    <tr>
-                        <td>Temperatura ideal</td>
-                        <td>23 - 25ºC</td>
-                    </tr>
-                    <tr>
-                        <td>Minerales que contiene</td>
-                        <td>Potasio, hierro y magnesio</td>
-                    </tr>
-                    <tr>
-                        <td>Vitaminas</td>
-                        <td>A y C</td>
-                    </tr>
-                    <tr>
-                        <td>Variedad</td>
-                        <td>Ají Mango</td>
-                    </tr>
-                    <tr>
-                        <td>Nombre científico</td>
-                        <td>Capsicum chinense</td>
-                    </tr>
-                </tbody>
-            </table>
+            <thead>
+                <tr>
+                    <th colspan="2">INFORMACIÓN DEL PRODUCTO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <b>CARACTERÍSTICA</b>
+                    </td>
+                    <td>
+                        <b>DESCRIPCIÓN</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Variedades</td>
+                    <td>
+                        Maximo
+                    </td>
+                </tr>
+                <tr>
+                    <td>Plantas por hectarea</td>
+                    <td>22 - 25 mil plantas</td>
+                </tr>
+                <tr>
+                    <td>Tamaño del fruto</td>
+                    <td>10 - 15 gramos</td>
+                </tr>
+                <tr>
+                    <td>Toneladas por hectarea</td>
+                    <td>15 - 20</td>
+                </tr>
+                <tr>
+                    <td>Duración del ciclo de cultivo</td>
+                    <td>120 - 150 días</td>
+                </tr>
+                <tr>
+                    <td>Comentarios</td>
+                    <td>
+                        Excelente color, buena puntuación en unidades scoville
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
 
             <p class="parrafo-detalles">
                 La obtención de mejor rendimiento y mayor calidad, está siempre ligado a la utilización 

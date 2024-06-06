@@ -77,8 +77,11 @@
                 </td>
                 <td class="product-info">
                     <h2 class="product-name">Fresa</h2>
-                    <p>Descripción del producto.</p>
-                    <p>Otras informaciones relevantes sobre el producto.</p>
+                    <p>
+                        La fresa o frutilla es un género de plantas rastreras estoloníferas de la familia Rosaceae.<br>
+                        Agrupa unos 425 taxones descritos, de los cuales solo unos 20 están aceptados.​ Son cultivadas por su fruto<br>
+                        comestible llamado de la misma manera: fresa o, en algunos países hispanoamericanos, frutilla. 
+                    </p>
                 </td>
             </tr>
         </table>
@@ -92,33 +95,44 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Característica 1</td>
-                    <td>Valor 1</td>
+                    <td>
+                        <b>CARACTERÍSTICA</b>
+                    </td>
+                    <td>
+                        <b>DESCRIPCIÓN</b>
+                    </td>
                 </tr>
                 <tr>
-                    <td>Característica 2</td>
-                    <td>Valor 2</td>
+                    <td>Variedades</td>
+                    <td>
+                        Frontera<br>
+                        Sayulitas
+                    </td>
                 </tr>
                 <tr>
-                    <td>Característica 3</td>
-                    <td>Valor 3</td>
+                    <td>Plantas por hectarea</td>
+                    <td>55 - 60 mil plantas</td>
                 </tr>
                 <tr>
-                    <td>Característica 4</td>
-                    <td>Valor 4</td>
+                    <td>Tamaño del fruto</td>
+                    <td>35 - 40 gramos</td>
                 </tr>
                 <tr>
-                    <td>Característica 5</td>
-                    <td>Valor 5</td>
+                    <td>Toneladas por hectarea</td>
+                    <td>30 - 45</td>
                 </tr>
                 <tr>
-                    <td>Característica 6</td>
-                    <td>Valor 6</td>
+                    <td>Duración del ciclo de cultivo</td>
+                    <td>150 - 210 días</td>
                 </tr>
                 <tr>
-                    <td>Característica 7</td>
-                    <td>Valor 7</td>
+                    <td>Comentarios</td>
+                    <td>
+                        Melones grandes, de excelente adaptabilidad a las zonas meloneras de México,
+                        planta fuerte y de buena sanidad
+                    </td>
                 </tr>
+                
             </tbody>
         </table>
 

@@ -77,8 +77,10 @@
                 </td>
                 <td class="product-info">
                     <h2 class="product-name">Melón Palmira</h2>
-                    <p>Descripción del producto.</p>
-                    <p>Otras informaciones relevantes sobre el producto.</p>
+                    <p>
+                        Planta fuerte y de buena sanidad, con muy buena adaptabilidad a zonas meloneras de México,<br>
+                        recomendada para siembras del 15 de julio al 15 de agosto.
+                    </p>
                 </td>
             </tr>
         </table>
@@ -92,33 +94,43 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Característica 1</td>
-                    <td>Valor 1</td>
+                    <td>
+                        <b>CARACTERÍSTICA</b>
+                    </td>
+                    <td>
+                        <b>DESCRIPCIÓN</b>
+                    </td>
                 </tr>
                 <tr>
-                    <td>Característica 2</td>
-                    <td>Valor 2</td>
+                    <td>Variedades</td>
+                    <td>
+                        Palmira F1
+                    </td>
                 </tr>
                 <tr>
-                    <td>Característica 3</td>
-                    <td>Valor 3</td>
+                    <td>Plantas por hectarea</td>
+                    <td>20 - 22 mil plantas</td>
                 </tr>
                 <tr>
-                    <td>Característica 4</td>
-                    <td>Valor 4</td>
+                    <td>Tamaño del fruto</td>
+                    <td>1.5 - 2.5 kilogramos</td>
                 </tr>
                 <tr>
-                    <td>Característica 5</td>
-                    <td>Valor 5</td>
+                    <td>Toneladas por hectarea</td>
+                    <td>70 - 80</td>
                 </tr>
                 <tr>
-                    <td>Característica 6</td>
-                    <td>Valor 6</td>
+                    <td>Duración del ciclo de cultivo</td>
+                    <td>120 - 150 días</td>
                 </tr>
                 <tr>
-                    <td>Característica 7</td>
-                    <td>Valor 7</td>
+                    <td>Comentarios</td>
+                    <td>
+                        Buen tamaño, uniformidad de frutos, poca semilla, excelentes grados BRICS,
+                        excelente consistencia de la pulpa, alta vida de anaquel
+                    </td>
                 </tr>
+                
             </tbody>
         </table>
 

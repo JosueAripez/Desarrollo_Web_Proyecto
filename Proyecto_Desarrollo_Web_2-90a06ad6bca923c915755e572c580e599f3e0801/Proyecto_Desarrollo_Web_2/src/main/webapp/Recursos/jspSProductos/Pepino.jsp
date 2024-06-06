@@ -83,13 +83,6 @@
                         uniforme, junto con su piel verde brillante, lo hacen atractivo para los consumidores y fácil de 
                         comercializar tanto en mercados locales como en cadenas de distribución más amplias.
                     </p>
-                    <p>
-                        En términos de cultivo, el pepino slicer requiere condiciones específicas para prosperar. Es una planta de 
-                        crecimiento rápido que prefiere un clima cálido y suelo bien drenado. La aplicación adecuada de riego y 
-                        nutrientes es crucial para asegurar un crecimiento óptimo y una producción abundante de frutos de alta 
-                        calidad. Además, el manejo de plagas y enfermedades es fundamental para proteger los cultivos y garantizar 
-                        rendimientos consistentes.
-                    </p>
                 </td>
             </tr>
         </table>
@@ -123,15 +116,15 @@
                 </tr>
                 <tr>
                     <td>Tamaño del fruto</td>
-                    <td>200-230 gramos</td>
+                    <td>200 - 230 gramos</td>
                 </tr>
                 <tr>
                     <td>Toneladas por hectarea</td>
-                    <td>65-80</td>
+                    <td>65 - 80</td>
                 </tr>
                 <tr>
                     <td>Duración del ciclo de cultivo</td>
-                    <td>120-150 días</td>
+                    <td>120 - 150 días</td>
                 </tr>
                 <tr>
                     <td>Comentarios</td>

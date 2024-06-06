@@ -77,8 +77,11 @@
                 </td>
                 <td class="product-info">
                     <h2 class="product-name">Menta</h2>
-                    <p>Descripción del producto.</p>
-                    <p>Otras informaciones relevantes sobre el producto.</p>
+                    <p>
+                        Mentha es un género de plantas herbáceas vivaces, perteneciente a la familia Lamiaceae.<br>
+                        Se estima que cuenta con trece a dieciocho especies, aunque la diferencia entre ellas es aún incierta.​<br>
+                        La hibridación entre algunas especies se da de forma natural, además de existir numerosos cultivares.
+                    </p>
                 </td>
             </tr>
         </table>
@@ -92,33 +95,42 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Característica 1</td>
-                    <td>Valor 1</td>
+                    <td>
+                        <b>CARACTERÍSTICA</b>
+                    </td>
+                    <td>
+                        <b>DESCRIPCIÓN</b>
+                    </td>
                 </tr>
                 <tr>
-                    <td>Característica 2</td>
-                    <td>Valor 2</td>
+                    <td>Variedades</td>
+                    <td>
+                        hierbabuena
+                    </td>
                 </tr>
                 <tr>
-                    <td>Característica 3</td>
-                    <td>Valor 3</td>
+                    <td>Plantas por hectarea</td>
+                    <td>22 - 25 mil plantas</td>
                 </tr>
                 <tr>
-                    <td>Característica 4</td>
-                    <td>Valor 4</td>
+                    <td>Tamaño del fruto</td>
+                    <td>10 - 15 gramos</td>
                 </tr>
                 <tr>
-                    <td>Característica 5</td>
-                    <td>Valor 5</td>
+                    <td>Toneladas por hectarea</td>
+                    <td>15 - 20</td>
                 </tr>
                 <tr>
-                    <td>Característica 6</td>
-                    <td>Valor 6</td>
+                    <td>Duración del ciclo de cultivo</td>
+                    <td>120 - 150 días</td>
                 </tr>
                 <tr>
-                    <td>Característica 7</td>
-                    <td>Valor 7</td>
+                    <td>Comentarios</td>
+                    <td>
+                        Excelente color, buena puntuación en unidades scoville
+                    </td>
                 </tr>
+                
             </tbody>
         </table>
 

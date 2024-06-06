@@ -77,50 +77,63 @@
                     </td>
                     <td class="product-info">
                         <h2 class="product-name">Chile jalapeño</h2>
-                        <p>Ta enchiloso</p>
-                        <p>Otras informaciones relevantes sobre el producto.</p>
+                        <p>
+                            llamado así debido a su centro tradicional de producción: la ciudad mexicana de Xalapa, en el estado de<br>
+                            Veracruz— o chile cuaresmeño es una variedad de chiles cuya planta es una de las del género Capsicum<br>
+                            más extensamente cultivadas y consumidas en América.
+                        </p>
                     </td>
                 </tr>
             </table>
 
 
             <table id="Detalles-producto">
-                <thead>
-                    <tr>
-                        <th colspan="2">INFORMACIÓN DEL PRODUCTO</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Característica 1</td>
-                        <td>Valor 1</td>
-                    </tr>
-                    <tr>
-                        <td>Característica 2</td>
-                        <td>Valor 2</td>
-                    </tr>
-                    <tr>
-                        <td>Característica 3</td>
-                        <td>Valor 3</td>
-                    </tr>
-                    <tr>
-                        <td>Característica 4</td>
-                        <td>Valor 4</td>
-                    </tr>
-                    <tr>
-                        <td>Característica 5</td>
-                        <td>Valor 5</td>
-                    </tr>
-                    <tr>
-                        <td>Característica 6</td>
-                        <td>Valor 6</td>
-                    </tr>
-                    <tr>
-                        <td>Característica 7</td>
-                        <td>Valor 7</td>
-                    </tr>
-                </tbody>
-            </table>
+            <thead>
+                <tr>
+                    <th colspan="2">INFORMACIÓN DEL PRODUCTO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <b>CARACTERÍSTICA</b>
+                    </td>
+                    <td>
+                        <b>DESCRIPCIÓN</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Variedades</td>
+                    <td>
+                        Everman
+                    </td>
+                </tr>
+                <tr>
+                    <td>Plantas por hectarea</td>
+                    <td>22 - 25 mil plantas</td>
+                </tr>
+                <tr>
+                    <td>Tamaño del fruto</td>
+                    <td>45 - 55 gramos</td>
+                </tr>
+                <tr>
+                    <td>Toneladas por hectarea</td>
+                    <td>50 - 60</td>
+                </tr>
+                <tr>
+                    <td>Duración del ciclo de cultivo</td>
+                    <td>120 - 150 días</td>
+                </tr>
+                <tr>
+                    <td>Comentarios</td>
+                    <td>
+                        Excelente color, excelente estetica de fruta,
+                        pared gruesa, buen tamaño
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
 
             <p class="parrafo-detalles">
                 La obtención de mejor rendimiento y mayor calidad, está siempre ligado a la utilización 

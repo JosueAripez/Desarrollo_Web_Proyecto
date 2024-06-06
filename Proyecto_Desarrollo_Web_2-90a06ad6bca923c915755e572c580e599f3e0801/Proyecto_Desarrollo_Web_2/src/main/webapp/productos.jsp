@@ -118,7 +118,7 @@
                                         <p><a class="vermas" href="Recursos/jspSProductos/Jalapeño.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     <td>
-                                        <img class="img_tabla" src="Recursos\Imgs\Productos\Chile-jalapenio3.png">
+                                        <img class="img_tabla" src="Recursos\Imgs\Productos\serrano.jpg">
                                         <hr>
                                         <p>&emsp;Chile Serrano&emsp;
                                         <p>Variedad:<br>
@@ -130,7 +130,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <img class="img_tabla" src="Recursos\Imgs\Productos\chile_morron_2.jpg">
+                                        <img class="img_tabla" src="Recursos\Imgs\Productos\roj.jpg">
                                         <hr>
                                         <p>Pimiento Morron Rojo</p>
                                         <p>Variedades:<br>
@@ -141,7 +141,7 @@
                                         <p><a class="vermas" href="Recursos/jspSProductos/Morron-rojo.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     <td>
-                                        <img class="img_tabla" src="Recursos\Imgs\Productos\chile_morron_2.jpg">
+                                        <img class="img_tabla" src="Recursos\Imgs\Productos\ama.jpeg">
                                         <hr>
                                         <p>Pimiento Morron Amarillo</p>
                                         <p>Variedades:<br>
@@ -152,7 +152,7 @@
                                         <p><a class="vermas" href="Recursos/jspSProductos/Morron-amarillo.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     <td>
-                                        <img class="img_tabla" src="Recursos\Imgs\Productos\chile_morron_2.jpg">
+                                        <img class="img_tabla" src="Recursos\Imgs\Productos\anaranjado.jpeg">
                                         <hr>
                                         <p>Pimiento Morron Naranja</p>
                                         <p>Variedades:<br>
@@ -163,7 +163,7 @@
                                         <p><a class="vermas" href="Recursos/jspSProductos/Morron-naranja.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     <td>
-                                        <img class="img_tabla" src="Recursos\Imgs\Productos\chile_morron_2.jpg">
+                                        <img class="img_tabla" src="Recursos\Imgs\Productos\verde.jpg">
                                         <hr>
                                         <p>Tomatillo Verde</p>
                                         <p>Variedad:<br>
@@ -174,7 +174,7 @@
                                         <p><a class="vermas" href="Recursos/jspSProductos/Tomatillo-verde.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     <td>
-                                        <img class="img_tabla" src="Recursos\Imgs\Productos\chile_morron_2.jpg">
+                                        <img class="img_tabla" src="Recursos\Imgs\Productos\bebe.jpg">
                                         <hr>
                                         <p>Zanahoria bebe</p>
                                         <p>Variedad:<br>
@@ -188,7 +188,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <img class="img_tabla" src="Recursos\Imgs\Productos\chile_morron_2.jpg">
+                                        <img class="img_tabla" src="Recursos\Imgs\Productos\amarilla.jpg">
                                         <hr>
                                         <p>Zanahoria Amarilla</p>
                                         <p>Variedad:<br>
@@ -198,7 +198,7 @@
                                         <p><a class="vermas" href="Recursos/jspSProductos/Zanahoria-amarilla.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     <td>
-                                        <img class="img_tabla" src="Recursos\Imgs\Productos\chile_morron_2.jpg">
+                                        <img class="img_tabla" src="Recursos\Imgs\Productos\blanca4.jpg">
                                         <hr>
                                         <p>Zanahoria Blanca</p>
                                         <p>Variedad:<br>
@@ -208,7 +208,7 @@
                                         <p><a class="vermas" href="Recursos/jspSProductos/Zanahoria-blanca.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     <td>
-                                        <img class="img_tabla" src="Recursos\Imgs\Productos\chile_morron_2.jpg">
+                                        <img class="img_tabla" src="Recursos\Imgs\Productos\morada3.jpg">
                                         <hr>
                                         <p>Zanahoria Morada</p>
                                         <p>Variedad:<br>
@@ -262,7 +262,7 @@
                                         <p><a class="vermas" href="Recursos/jspSProductos/Habanero-naranja.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     <td>
-                                        <img class="img_tabla" src="Recursos\Imgs\Productos\Chile_Habanero3.jpg">
+                                        <img class="img_tabla" src="Recursos\Imgs\Productos\rojo.png">
                                         <hr>
                                         <p>Chile Habanero Rojo</p>
                                         <p>Variedad:<br>
@@ -272,7 +272,7 @@
                                         <p><a class="vermas" href="Recursos/jspSProductos/Habanero-rojo.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     <td>
-                                        <img class="img_tabla" src="Recursos\Imgs\Productos\Chile_Habanero3.jpg">
+                                        <img class="img_tabla" src="Recursos\Imgs\Productos\shishito-1.jpg">
                                         <hr>
                                         <p>Chile Shishito</p>
                                         <p>Variedad:<br>
@@ -285,7 +285,8 @@
                                         <img class="img_tabla" src="Recursos\Imgs\Productos\menta_1.jpg">
                                         <hr>
                                         <p>Menta</p>
-                                        <br><br><br>
+                                        <p>Variedad:<br>
+                                            Hierbabuena<br><br><br>
                                         
                                         <hr>
                                         <p><a class="vermas" href="Recursos/jspSProductos/Menta.jsp" class="referencia-producto">Ver más</a></p>

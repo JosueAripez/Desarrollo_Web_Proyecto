@@ -76,9 +76,12 @@
 
                 </td>
                 <td class="product-info">
-                    <h2 class="product-name">Ejote</h2>
-                    <p>Descripción del producto.</p>
-                    <p>Otras informaciones relevantes sobre el producto.</p>
+                    <h2 class="product-name">Ejote French</h2>
+                    <p>
+                        El ejote francés es ideal para agregar a consomés de res, sopas de verduras, pucheros, moles de olla<br>
+                        y caldos tlalpeños. También  son el acompañamiento perfecto como guarnición de tu pavo, puedes prepararlos<br>
+                        con piñon y limón o con láminas de queso parmesano.
+                    </p>
                 </td>
             </tr>
         </table>
@@ -92,33 +95,44 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Característica 1</td>
-                    <td>Valor 1</td>
+                    <td>
+                        <b>CARACTERÍSTICA</b>
+                    </td>
+                    <td>
+                        <b>DESCRIPCIÓN</b>
+                    </td>
                 </tr>
                 <tr>
-                    <td>Característica 2</td>
-                    <td>Valor 2</td>
+                    <td>Variedades</td>
+                    <td>
+                        Serengueti <br>
+                        Sapporo
+                    </td>
                 </tr>
                 <tr>
-                    <td>Característica 3</td>
-                    <td>Valor 3</td>
+                    <td>Plantas por hectarea</td>
+                    <td>180 - 200 mil plantas</td>
                 </tr>
                 <tr>
-                    <td>Característica 4</td>
-                    <td>Valor 4</td>
+                    <td>Tamaño del fruto</td>
+                    <td>8 - 10 gramos</td>
                 </tr>
                 <tr>
-                    <td>Característica 5</td>
-                    <td>Valor 5</td>
+                    <td>Toneladas por hectarea</td>
+                    <td>13 - 16</td>
                 </tr>
                 <tr>
-                    <td>Característica 6</td>
-                    <td>Valor 6</td>
+                    <td>Duración del ciclo de cultivo</td>
+                    <td>90 días</td>
                 </tr>
                 <tr>
-                    <td>Característica 7</td>
-                    <td>Valor 7</td>
+                    <td>Comentarios</td>
+                    <td>
+                        Planta abierta, excelente floración y cuaje,
+                        buen vigor de planta
+                    </td>
                 </tr>
+                
             </tbody>
         </table>
 
