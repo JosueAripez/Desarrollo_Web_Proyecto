@@ -68,6 +68,7 @@
                     <div class="Productos_nuevos">
                         <table class="Tabla">
                             <tbody>
+                                
                                 <tr>
                                     <td>
                                         <img class="img_tabla" src="Recursos\Imgs\About\pepino.png">
@@ -90,7 +91,7 @@
                                             Coyote
                                         </p>
                                         <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Ejote.jsp" class="referencia-producto">Ver más</a></p>
+                                        <p><a class="vermas" href="Recursos/jspSProductos/Ejote-bluelake.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     <td>
                                         <img class="img_tabla" src="Recursos\Imgs\Productos\ejote_1.jpg">
@@ -102,7 +103,7 @@
                                             
                                         </p>
                                         <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Ejote.jsp" class="referencia-producto">Ver más</a></p>
+                                        <p><a class="vermas" href="Recursos/jspSProductos/Ejote-french.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     <td>
                                         <img class="img_tabla" src="Recursos\Imgs\Productos\Chile-jalapenio3.png">
@@ -114,7 +115,7 @@
                                             
                                         </p>
                                         <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Ver más</a></p>
+                                        <p><a class="vermas" href="Recursos/jspSProductos/Jalapeño.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     <td>
                                         <img class="img_tabla" src="Recursos\Imgs\Productos\Chile-jalapenio3.png">
@@ -124,7 +125,7 @@
                                             Cadereyta<br><br><br>
                                         </p>
                                         <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Chile-Jalapeño.jsp" class="referencia-producto">Ver más</a></p>
+                                        <p><a class="vermas" href="Recursos/jspSProductos/Serrano.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -137,7 +138,7 @@
                                             Avante<br><br>
                                         </p>
                                         <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Chile-morron.jsp" class="referencia-producto">Ver más</a></p>
+                                        <p><a class="vermas" href="Recursos/jspSProductos/Morron-rojo.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     <td>
                                         <img class="img_tabla" src="Recursos\Imgs\Productos\chile_morron_2.jpg">
@@ -148,7 +149,7 @@
                                             Cozumel<br><br>
                                         </p>
                                         <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Chile-morron.jsp" class="referencia-producto">Ver más</a></p>
+                                        <p><a class="vermas" href="Recursos/jspSProductos/Morron-amarillo.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     <td>
                                         <img class="img_tabla" src="Recursos\Imgs\Productos\chile_morron_2.jpg">
@@ -159,7 +160,7 @@
                                             Arancia<br><br>
                                         </p>
                                         <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Chile-morron.jsp" class="referencia-producto">Ver más</a></p>
+                                        <p><a class="vermas" href="Recursos/jspSProductos/Morron-naranja.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     <td>
                                         <img class="img_tabla" src="Recursos\Imgs\Productos\chile_morron_2.jpg">
@@ -170,7 +171,7 @@
 
                                         </p>
                                         <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Chile-morron.jsp" class="referencia-producto">Ver más</a></p>
+                                        <p><a class="vermas" href="Recursos/jspSProductos/Tomatillo-verde.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     <td>
                                         <img class="img_tabla" src="Recursos\Imgs\Productos\chile_morron_2.jpg">
@@ -181,7 +182,7 @@
 
                                         </p>
                                         <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Chile-morron.jsp" class="referencia-producto">Ver más</a></p>
+                                        <p><a class="vermas" href="Recursos/jspSProductos/Zanahoria-bebe.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     
                                 </tr>
@@ -194,7 +195,7 @@
                                             Yellowstone<br><br><br>
                                         </p>
                                         <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Chile-morron.jsp" class="referencia-producto">Ver más</a></p>
+                                        <p><a class="vermas" href="Recursos/jspSProductos/Zanahoria-amarilla.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     <td>
                                         <img class="img_tabla" src="Recursos\Imgs\Productos\chile_morron_2.jpg">
@@ -204,7 +205,7 @@
                                             White Satin<br><br><br>
                                         </p>
                                         <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Chile-morron.jsp" class="referencia-producto">Ver más</a></p>
+                                        <p><a class="vermas" href="Recursos/jspSProductos/Zanahoria-blanca.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     <td>
                                         <img class="img_tabla" src="Recursos\Imgs\Productos\chile_morron_2.jpg">
@@ -214,7 +215,7 @@
                                             Deep Purple<br><br><br>
                                         </p>
                                         <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Chile-morron.jsp" class="referencia-producto">Ver más</a></p>
+                                        <p><a class="vermas" href="Recursos/jspSProductos/Zanahoria-morada.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     <td>
                                         <img class="img_tabla" src="Recursos\Imgs\Productos\fresa_1.jpg">
@@ -235,7 +236,7 @@
                                             Palmira F1<br><br><br>
                                         </p>
                                         <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/melon-palmira.jsp" class="referencia-producto">Ver más</a></p>
+                                        <p><a class="vermas" href="Recursos/jspSProductos/melon.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     
                                 </tr>
@@ -258,7 +259,7 @@
                                             Megalodon<br><br><br>
                                         </p>
                                         <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Chile-habanero.jsp" class="referencia-producto">Ver más</a></p>
+                                        <p><a class="vermas" href="Recursos/jspSProductos/Habanero-naranja.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     <td>
                                         <img class="img_tabla" src="Recursos\Imgs\Productos\Chile_Habanero3.jpg">
@@ -268,7 +269,7 @@
                                             Maximo<br><br><br>
                                         </p>
                                         <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Chile-habanero.jsp" class="referencia-producto">Ver más</a></p>
+                                        <p><a class="vermas" href="Recursos/jspSProductos/Habanero-rojo.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     <td>
                                         <img class="img_tabla" src="Recursos\Imgs\Productos\Chile_Habanero3.jpg">
@@ -278,14 +279,14 @@
                                             Shishito F1<br><br><br>
                                         </p>
                                         <hr>
-                                        <p><a class="vermas" href="Recursos/jspSProductos/Chile-habanero.jsp" class="referencia-producto">Ver más</a></p>
+                                        <p><a class="vermas" href="Recursos/jspSProductos/Chile-shishito.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>
                                     <td>
                                         <img class="img_tabla" src="Recursos\Imgs\Productos\menta_1.jpg">
                                         <hr>
                                         <p>Menta</p>
-                                        <br>
-                                        <p>10 piezas disponibles</p>
+                                        <br><br><br>
+                                        
                                         <hr>
                                         <p><a class="vermas" href="Recursos/jspSProductos/Menta.jsp" class="referencia-producto">Ver más</a></p>
                                     </td>

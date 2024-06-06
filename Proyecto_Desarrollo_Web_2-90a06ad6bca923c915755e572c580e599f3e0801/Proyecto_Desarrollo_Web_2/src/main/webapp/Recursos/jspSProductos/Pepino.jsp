@@ -77,8 +77,19 @@
                 </td>
                 <td class="product-info">
                     <h2 class="product-name">Pepino</h2>
-                    <p>Descripción del producto.</p>
-                    <p>Otras informaciones relevantes sobre el producto.</p>
+                    <p>El pepino slicer es una variedad altamente demandada en la agricultura debido a su potencial comercial y 
+                        sus características distintivas. Este cultivar se destaca por su resistencia al transporte y su capacidad
+                        para mantener su calidad y frescura durante el almacenamiento y la distribución. Su forma alargada y 
+                        uniforme, junto con su piel verde brillante, lo hacen atractivo para los consumidores y fácil de 
+                        comercializar tanto en mercados locales como en cadenas de distribución más amplias.
+                    </p>
+                    <p>
+                        En términos de cultivo, el pepino slicer requiere condiciones específicas para prosperar. Es una planta de 
+                        crecimiento rápido que prefiere un clima cálido y suelo bien drenado. La aplicación adecuada de riego y 
+                        nutrientes es crucial para asegurar un crecimiento óptimo y una producción abundante de frutos de alta 
+                        calidad. Además, el manejo de plagas y enfermedades es fundamental para proteger los cultivos y garantizar 
+                        rendimientos consistentes.
+                    </p>
                 </td>
             </tr>
         </table>
@@ -92,55 +103,66 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Característica 1</td>
-                    <td>Valor 1</td>
+                    <td>
+                        <b>CARACTERÍSTICA</b>
+                    </td>
+                    <td>
+                        <b>DESCRIPCIÓN</b>
+                    </td>
                 </tr>
                 <tr>
-                    <td>Característica 2</td>
-                    <td>Valor 2</td>
+                    <td>Variedades</td>
+                    <td>
+                        Uranio f1<br>
+                        Modan
+                    </td>
                 </tr>
                 <tr>
-                    <td>Característica 3</td>
-                    <td>Valor 3</td>
+                    <td>Plantas por hectarea</td>
+                    <td>21 mil</td>
                 </tr>
                 <tr>
-                    <td>Característica 4</td>
-                    <td>Valor 4</td>
+                    <td>Tamaño del fruto</td>
+                    <td>200-230 gramos</td>
                 </tr>
                 <tr>
-                    <td>Característica 5</td>
-                    <td>Valor 5</td>
+                    <td>Toneladas por hectarea</td>
+                    <td>65-80</td>
                 </tr>
                 <tr>
-                    <td>Característica 6</td>
-                    <td>Valor 6</td>
+                    <td>Duración del ciclo de cultivo</td>
+                    <td>120-150 días</td>
                 </tr>
                 <tr>
-                    <td>Característica 7</td>
-                    <td>Valor 7</td>
+                    <td>Comentarios</td>
+                    <td>
+                        Variedad precoz, se adapta a diferentes sistemas (climas) de producción,
+                            buen cuaje de frutas por sed 
+                        
+                    </td>
                 </tr>
+                
             </tbody>
         </table>
 
         <p class="parrafo-detalles">
-            La obtención de mejor rendimiento y mayor calidad, está siempre ligado a la utilización 
-            de los productos más adecuados e idóneos para cada sistema productivo. En el sustrato 
-            Hydrocoir, que comercializa GREENHOW se cuidan todos los aspectos. Desde el inicio, 
-            con los cuidados de la palma, para luego seguir con el procesamiento del coco obteniéndose 
-            así la fibra de coco requerida. En el proceso se controla minuciosa y profesionalmente: 
-            la limpieza, el corte, cribado, secado, mezclado y llenado de envases diversos, cumpliendo 
-            certificaciones claves como OMRI, que garantiza que el producto es orgánico. Y como ISO 9001, 
-            que asegura; calidad, estabilidad y homogeneidad del producto final que comercializa GREENHOW.
+            Nat's Veggies, reconocida por su excelencia en la agricultura mexicana y su presencia 
+            destacada en el mercado estadounidense, se distingue por su compromiso inquebrantable 
+            con la calidad en todas las etapas de producción. Desde la selección cuidadosa de los 
+            campos de cultivo hasta el meticuloso proceso de empaquetado y transporte, cada paso se 
+            realiza con el más alto estándar de calidad. En Nat's Veggies, se enfatiza la importancia de 
+            una producción sostenible y responsable, lo que se refleja en la certificación "Senasica" y 
+            "PrimusGFS", que garantizan el cumplimiento de regulaciones rigurosas y la seguridad alimentaria de los productos.
+
         </p>
         <p class="parrafo-detalles">
-            El resultado es una fibra garantizada, de excelente calidad que posiciona a Hydrocoir como una 
-            excelente alternativa para ser utilizada en sistemas de producción intensivos y eficientes, que 
-            busquen optimizar la calidad, el rendimiento y por lo tanto, el retorno de la inversión (ROI). 
-            Mejor producto para mejores resultados. En contraparte hay sustratos de menor costo y calidad que 
-            servirán para sistemas productivos que buscan minimizar costos de entrada sin medir el impacto final
-            en la rentabilidad. Si lo que buscas es un producto que potencie la genética, nutrición y el manejo 
-            para producir más y de mejor calidad, optimizando el retorno de la inversión, Hydrocoir es para ti. 
-            De profesional a profesional, te recomendamos Hydrocoir.
+            Los productos de Nat's Veggies son más que simples vegetales; son el resultado de un 
+            arduo trabajo y dedicación hacia la excelencia. Desde el campo hasta la mesa del 
+            consumidor, se cuida cada detalle para garantizar la frescura, sabor y calidad superiores. Si 
+            buscas productos que no solo cumplan, sino que superen tus expectativas en términos de 
+            calidad y rendimiento, Nat's Veggies es la elección indiscutible. Confiables, seguros y con 
+            un compromiso innegable con la satisfacción del cliente, los productos de Nat's Veggies 
+            son la opción preferida para aquellos que buscan lo mejor en el mercado de productos agrícolas.
         </p>
         
         <footer class="footer">
