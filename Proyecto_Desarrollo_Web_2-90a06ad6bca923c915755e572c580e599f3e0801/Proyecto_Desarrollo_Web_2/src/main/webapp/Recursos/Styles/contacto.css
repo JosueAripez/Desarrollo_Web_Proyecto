@@ -115,12 +115,16 @@ input[type="submit"] {
 
 /* Mantener el espacio y centrar el contenido en gray-box */
 .text-box {
-    height: 370px;
+    height: 240px;
     background-color: #39b935;
     display: flex;
+    font-size: large;
     justify-content: center;
     align-items: center;
+    
 }
+
+
 
 .form-container p{
     font-weight: bold;

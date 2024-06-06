@@ -21,8 +21,9 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Contacto</title>
         <link href="Recursos/Imgs/Logo_nav.png" rel="icon">
-        <link href="Recursos/Styles/index.css" rel="stylesheet">
         <link href="Recursos/Styles/contacto.css" rel="stylesheet">
+        <link href="Recursos/Styles/index.css" rel="stylesheet">
+        
         <script src="Recursos/Scripts/index.js"></script>    
     </head>
 
@@ -39,17 +40,17 @@
                     <p class="text-nav">Nat's Veggies</p>
                     <input type="text" id="buscador" name="buscador" placeholder="Buscar Productos" onkeyup="mostrarSugerencias(this.value)">
                     <div id="sugerencias" class="suggestions"></div>
-                    <form action="buscar" method="get">
+                    <form action="buscar" method="get" onsubmit="return buscarProducto()">
                         <input type="hidden" id="query" name="query">
                         <input type="image"id="bb" src="Recursos\Imgs\lupa.png" onclick="buscarProducto()">
                     </form>
                     <form action="login.jsp" method="get">
                         <input class="logo-nav" type="image" src="Recursos/Imgs/usuario.png" alt="Botón de inicio de sesión">
                     </form>
-                    <% if (sessionUserName != null) {%>
-                    <p><%= sessionUserName%></p>
-
-                    <% } else { %>
+                    <% if (sessionUserName != null) { %>
+                    <p><%= sessionUserName %></p>
+                    
+                    <% }else{ %>
                     <p></p>
                     <% }%>
                 </div>
@@ -61,12 +62,6 @@
                         <li><a href="servicios.jsp">Servicios</a></li>
                         <li><a href="about.jsp">Nosotros</a></li>
                         <li><a href="contacto.jsp">Contacto</a></li>
-                            <%
-                                Boolean esAdmin = (Boolean) session.getAttribute("esAdmin");
-                                if (esAdmin != null && esAdmin) { // Verificar si el usuario es un administrador
-                            %>
-                        <li><a href="admi_productos.jsp">Administrar Productos</a></li>
-                            <% }%>
                     </ul>
                 </div>
                 <br>
@@ -105,12 +100,12 @@
                 </div>
                 <div class="grid-item">
                     <div class="image-container">
-
+                        <img src="Recursos/Imgs/Campo/principal2.jpg" alt="imagen1">
                     </div>
                     <div class="text-box">
-                        <p>Dirección de nuestras oficinas:
+                        <p class="p-textbox">&emsp;Dirección de nuestras oficinas:
                             Parcela 216, Carretera Ensenada-La Paz, C.P. 22790, Ensenada, 
-                            Baja California, México.
+                            Baja California, México
                         </p>
                     </div>
                 </div>

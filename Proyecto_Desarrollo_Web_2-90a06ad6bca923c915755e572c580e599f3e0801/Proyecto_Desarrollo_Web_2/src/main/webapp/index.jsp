@@ -61,12 +61,6 @@
                         <li><a href="servicios.jsp">Servicios</a></li>
                         <li><a href="about.jsp">Nosotros</a></li>
                         <li><a href="contacto.jsp">Contacto</a></li>
-                            <%
-                                Boolean esAdmin = (Boolean) session.getAttribute("esAdmin");
-                                if (esAdmin != null && esAdmin) { // Verificar si el usuario es un administrador
-                            %>
-                        <li><a href="admi_productos.jsp">Administrar Productos</a></li>
-                            <% }%>
                     </ul>
                 </div>
                 <br>
@@ -159,29 +153,40 @@
                 <br>
 
                 <br><!-- comment -->
-                <h1>Agotados</h1>
+                <h1>Detalles de nuestros productos</h1>
                 <div class="Productos_nuevos">
                     <table class="Tabla2">
                         <tbody>
                             <tr>
                                 <td>
                                     <div class="celda_contenido">
-                                        <img class="img_tabla2" src="Recursos/Imgs/Productos/mango.jpg" alt="Mango">
+                                        <img class="img_tabla2" src="Recursos\Imgs\About\pepino.png" alt="Pepino">
                                         <div class="info_producto">
-                                            <p class="nombre_producto">Mango</p>
-                                            <p class="clave_producto">Clave: 001</p>
-                                            <p class="descripcion_producto">El mango de la especie Mangifera indica es una fruta jugosa (más específicamente una drupa) y tiene numerosas variedades con formas, colores, texturas y sabores muy variables.</p>
+                                            <p class="nombre_producto">Pepino Slicer</p>
+                                            
+                                            <p class="descripcion_producto">El pepino slicer es una variedad altamente demandada en la agricultura debido a su potencial comercial y 
+                                                sus características distintivas. Este cultivar se destaca por su resistencia al transporte y su capacidad
+                                                para mantener su calidad y frescura durante el almacenamiento y la distribución. Su forma alargada y 
+                                                uniforme, junto con su piel verde brillante, lo hacen atractivo para los consumidores y fácil de 
+                                                comercializar tanto en mercados locales como en cadenas de distribución más amplias.
+                                            </p>
                                             
                                         </div>
                                     </div>
                                 </td>
                                 <td>
                                     <div class="celda_contenido">
-                                        <img class="img_tabla2" src="Recursos/Imgs/Productos/pera.jpg" alt="Pera">
+                                        <img class="img_tabla2" src="Recursos\Imgs\Productos\fresa_1.jpg" alt="Fresa">
                                         <div class="info_producto">
-                                            <p class="nombre_producto">Pera</p>
-                                            <p class="clave_producto">Clave: 002</p>
-                                            <p class="descripcion_producto">En China son consideradas como un símbolo de longevidad porque, aunque sus flores sugieren fragilidad, crecen en el peral, un árbol caracterizado por su fuerza y longevidad capaz de resistir las sequías más duras.</p>
+                                            <p class="nombre_producto">Fresa</p>
+                                            <p class="descripcion_producto">
+                                                La fresa es un cultivo altamente demandado en la agricultura debido a su potencial comercial 
+                                                y sus características distintivas. Este fruto se destaca por su resistencia al transporte y 
+                                                su capacidad para mantener su calidad y frescura durante el almacenamiento y la distribución.
+                                                Su forma cónica y uniforme, junto con su color rojo brillante y su sabor dulce y jugoso, la 
+                                                hacen atractiva para los consumidores y fácil de comercializar tanto en mercados locales como 
+                                                en cadenas de distribución más amplias.
+                                            </p>
                                             
                                         </div>
                                     </div>
@@ -192,9 +197,15 @@
                                     <div class="celda_contenido">
                                         <img class="img_tabla2" src="Recursos/Imgs/Productos/melon.jpg" alt="Melon">
                                         <div class="info_producto">
-                                            <p class="nombre_producto">Melon Fresco</p>
-                                            <p class="clave_producto">Clave: 003</p>
-                                            <p class="descripcion_producto">es una especie de la familia de las cucurbitáceas. Domesticada hace más de cuatro mil años en la región mediterránea oriental y Asia occidental, el origen exacto de la especie silvestre es aún desconocido.</p>
+                                            <p class="nombre_producto">Melon</p>
+                                            <p class="descripcion_producto">
+                                                El melón es un cultivo altamente demandado en la agricultura debido a su potencial comercial 
+                                                y sus características distintivas. Este fruto se destaca por su resistencia al transporte y su 
+                                                capacidad para mantener su calidad y frescura durante el almacenamiento y la distribución. Su forma 
+                                                redonda y uniforme, junto con su piel amarilla o verde y su pulpa dulce y jugosa, lo hacen atractivo
+                                                para los consumidores y fácil de comercializar tanto en mercados locales como en cadenas de 
+                                                distribución más amplias.
+                                            </p>
                                             
                                         </div>
                                     </div>
@@ -203,9 +214,21 @@
                                     <div class="celda_contenido">
                                         <img class="img_tabla2" src="Recursos/Imgs/Productos/ejote_1.jpg" alt="Ejote">
                                         <div class="info_producto">
-                                            <p class="nombre_producto">Ejote</p>
-                                            <p class="clave_producto">Clave: 004</p>
-                                            <p class="descripcion_producto">El nombre "ejote" viene del náhuatl exotl (haba verde). El nombre "judía" viene del árabe (yudiya), y éste del latín (iudaeus) y del hebreo (yehudi). "Alubia" viene del árabe (al-lubíia), tomado del persa (lubía).</p>
+                                            <p class="nombre_producto">Ejotes</p>
+                                            <p class="descripcion_producto">
+                                                El ejote es un cultivo altamente demandado en la agricultura debido a su potencial comercial y sus 
+                                                características distintivas. Esta leguminosa se destaca por su resistencia al transporte y su capacidad 
+                                                para mantener su calidad y frescura durante el almacenamiento y la distribución. Su forma alargada y 
+                                                uniforme, junto con su color verde brillante y su textura tierna y crujiente, lo hacen atractivo para 
+                                                los consumidores y fácil de comercializar tanto en mercados locales como en cadenas de distribución más 
+                                                amplias.
+
+
+
+
+
+
+                                            </p>
                                             
                                         </div>
                                     </div>
