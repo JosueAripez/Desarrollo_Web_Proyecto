@@ -76,13 +76,11 @@
                         <h1 class="centro">¿Quiénes<br>Somos?</h1>
                         <img src="Recursos/Imgs/About/quienessomos2.jpeg" class="imagen">
 
-                        <p class="texto1">Actualmente distribuimos productos producidos
-                            <br>en México, Estados Unidos, Chile, Argentina y
-                            <br>Peru; y tenemos presencia de venta en los
-                            <br>mercados de México, Estados Unidos y China.
-                            <br>mercados de México, de supermercados,
-                            <br>mercados de México, distribuidoras y mercados
-                            <br>de abasto.
+                        <p class="texto1">
+                            Nat's Veggies es un productor, procesador y empacador de hortalizas,
+                            cuyo principal mercado es Estados Unidos.<br><br>
+                            Nat's Veggies fue fundada en el año 2010, por Jose Cardenas, Catalina Diaz y
+                            su hija Natalia Garnica.
                         </p>
                     </div>
 
@@ -90,26 +88,18 @@
                     <div class="contenedor">
                         <h1 class="encabezado">Misión</h1>
                         <p class="texto2">
-                            Entregar una solución de nutrición global a clientes tecnificados de la República Mexicana,
-                            <br>
-                            que les permita maximizar la calidad y la producción de sus cultivos, para así obtener grandes
-                            <br>
-                            cosechas con un excelente retorno de su inversión.
+                            Comercializar productos de alta calidad que cumplan con las necesidades<br>
+                            de los consumidores, siempre buscando el liderazgo, realizando nuestras<br>
+                            operaciones con plena seriedad, honestidad y seguridad.
                         </p>
                     </div>
                     <img src="Recursos/Imgs/About/fresas.png" class="fresas">
                     <div class="contenedor2">
                         <h1 class="encabezado2">Visión</h1>
                         <p class="texto3">
-                            Ser el proveedor preferido por los agricultores mexicanos para nutrir eficaz, eficiente y
-                            <br>
-                            sustentablemente sus cultivos. Ser un agente de capacitación, difusión y cambio a productos y
-                            <br>
-                            técnicas de nutrición más adecuados para cumplir con los fines productivos que el crecimiento
-                            <br>
-                            poblacional y el cuidado del planeta nos exigen. Generar beneficios a la sociedad y entorno en
-                            <br>
-                            el que participamos.
+                            Nuestros objetivos de empresa es ser una organización modelo que ofrezca<br>
+                            productos hortícolas y servicios de la más alta calidad para satisfaces<br>
+                            las necesidades de consumidores.
                         </p>
                     </div>
                     <img src="Recursos/Imgs/About/chile.png" class="chile">
@@ -120,7 +110,7 @@
                             <br>
                             <br>
                             <b><u>Calidad:</u></b> Seleccionamos, buscamos, importamos y comercializamos siempre el mejor producto
-                            existente en el mundo para el campo mexicano. Así mismo asesoramos a los agricultores con
+                            existente en el mundo para el campo mexicano. Así mismo revisamos nuestros cultivos con
                             profesionales altamente capacitados y que cuentan con herramientas tecnológicas para cumplir estos
                             objetivos.
                             <br>
